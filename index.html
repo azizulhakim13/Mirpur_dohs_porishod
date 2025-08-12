@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Charset & Viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary Meta -->
+  <title>Mirpur DOHS Parishad — Official Website | Secure, Well-Planned Community in Dhaka</title>
+  <meta name="description"
+    content="Mirpur DOHS Parishad oversees one of Dhaka’s most secure and well-organized residential communities—offering round-the-clock security, modern infrastructure, transparent services & fees, notices, and resident support.">
+  <meta name="keywords"
+    content="Mirpur DOHS, Defence Officers Housing Society, Mirpur DOHS Parishad, Dhaka residential community, DOHS notices, service fees, governing body, helpline, security, mosque services, sanitation, sports and culture">
+  <meta name="author" content="Mirpur DOHS Parishad">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.example-dohs.org/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="bn_BD">
+  <meta property="og:site_name" content="Mirpur DOHS Parishad">
+  <meta property="og:url" content="https://www.example-dohs.org/">
+  <meta property="og:title" content="Mirpur DOHS Parishad — Official Website">
+  <meta property="og:description"
+    content="A safe, orderly, and connected neighborhood in Mirpur with modern services and resident support.">
+  <meta property="og:image" content="https://www.example-dohs.org/assets/img/og/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mirpur DOHS Parishad — Official Website">
+  <meta name="twitter:description"
+    content="Secure, well-planned community living in Mirpur, Dhaka—services, notices, and support.">
+  <meta name="twitter:image" content="https://www.example-dohs.org/assets/img/og/og-image.jpg">
+
+  <!-- PWA / Theming (optional but nice) -->
+  <meta name="theme-color" content="#0f3d2e">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo.png">
+
+  <!-- Hreflang (if you’ll add Bangla pages later) -->
+  <link rel="alternate" href="https://www.example-dohs.org/" hreflang="en">
+  <link rel="alternate" href="https://www.example-dohs.org/bn/" hreflang="bn">
+  <link rel="alternate" href="https://www.example-dohs.org/" hreflang="x-default">
+
+  <!-- Structured Data (Organization) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Mirpur DOHS Parishad",
+  "url": "https://www.example-dohs.org/",
+  "logo": "https://www.example-dohs.org/assets/img/logo.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Control Room",
+      "telephone": "+8801814015366",
+      "areaServed": "BD"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "Office",
+      "telephone": "+880244806644",
+      "areaServed": "BD",
+      "email": "mirpurdohsporshod@gmail.com"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Road 06, Mirpur DOHS",
+    "addressLocality": "Dhaka",
+    "postalCode": "1216",
+    "addressCountry": "BD"
+  },
+  "sameAs": []
+}
+</script>
+
+  <!-- Theme switcher (color modes) -->
+  <script src="assets/js/theme-switcher.js"></script>
+
+  <!-- Favicon and Touch Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#080032">
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Vendor Styles -->
+  <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
+  <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+
+  <!-- Main Theme Styles + Bootstrap -->
+  <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+
+  <!-- Page loading styles -->
+  <style>
+    .page-loading {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all .4s .2s ease-in-out;
+      transition: all .4s .2s ease-in-out;
+      background-color: #fff;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 9999;
+    }
+
+    [data-bs-theme="dark"] .page-loading {
+      background-color: #0b0f19;
+    }
+
+    .page-loading.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .page-loading-inner {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -webkit-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out;
+      opacity: 0;
+    }
+
+    .page-loading.active>.page-loading-inner {
+      opacity: 1;
+    }
+
+    .page-loading-inner>span {
+      display: block;
+      font-size: 1rem;
+      font-weight: normal;
+      color: #9397ad;
+    }
+
+    [data-bs-theme="dark"] .page-loading-inner>span {
+      color: #fff;
+      opacity: .6;
+    }
+
+    .page-spinner {
+      display: inline-block;
+      width: 2.75rem;
+      height: 2.75rem;
+      margin-bottom: .75rem;
+      vertical-align: text-bottom;
+      border: .15em solid #b4b7c9;
+      border-right-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: spinner .75s linear infinite;
+      animation: spinner .75s linear infinite;
+    }
+
+    [data-bs-theme="dark"] .page-spinner {
+      border-color: rgba(255, 255, 255, .4);
+      border-right-color: transparent;
+    }
+
+    @-webkit-keyframes spinner {
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spinner {
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+  <!-- Page loading scripts -->
+  <script>
+    (function () {
+      window.onload = function () {
+        const preloader = document.querySelector('.page-loading');
+        preloader.classList.remove('active');
+        setTimeout(function () {
+          preloader.remove();
+        }, 1000);
+      };
+    })();
+  </script>
+
+</head>
+
+
+<!-- Body -->
+
+<body>
+
+
+  <!-- Page loading spinner -->
+  <div class="page-loading active">
+    <div class="page-loading-inner">
+      <div class="page-spinner"></div><span>Loading...</span>
+    </div>
+  </div>
+
+  <main class="page-wrapper">
+    <!-- Navbar -->
+    <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
+      <div class="container px-3">
+        <a href="index.html" class="navbar-brand pe-3">
+          <img src="assets/img/logo.png" width="64" alt="MIRPUR DOHS PORISHOD">
+          <span class="primary-color logo-name">MIRPUR DOHS PORISHOD</span>
+        </a>
+
+        <div id="navbarNav" class="offcanvas offcanvas-end">
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-xl-5 mb-2 mb-lg-0">
+              <!-- Home -->
+              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+
+              <!-- About (groups About Us + Governing Body) -->
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html" class="dropdown-item">Overview</a></li>
+                  <li><a href="governing-body.html" class="dropdown-item">Governing Body</a></li>
+                </ul>
+              </li>
+
+              <!-- Services (must be top-level) -->
+              <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+
+              <!-- Resources (Forms & Downloads + Gallery) -->
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                <ul class="dropdown-menu">
+                  <li><a href="notices-events.html" class="dropdown-item">Notices &amp; Events</a></li>
+                  <li><a href="gallery.html" class="dropdown-item">Gallery</a></li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Offcanvas footer CTA (unchanged placement) -->
+          <div class="offcanvas-header border-top">
+            <a href="forms-downloads.html" class="btn btn-danger-custom w-100" target="_blank" rel="noopener">
+              <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+              Helpline
+            </a>
+          </div>
+        </div>
+
+        <!-- Desktop CTA (unchanged placement) -->
+        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="helpline.html" class="btn btn-danger-custom btn-sm fs-sm rounded d-none d-lg-inline-flex"
+          target="_blank" rel="noopener">
+          <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+          &nbsp;Helpline
+        </a>
+
+      </div>
+    </header>
+
+    <section class="hero-slider" data-bs-theme="dark">
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide hero-slide">
+            <div class="slide-bg" style="background-image:url('assets/img/Mirpur_DOHS.jpg');"></div>
+            <div class="slide-overlay"></div>
+
+            <div class="container position-relative h-100">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
+                <h2 class="display-2 from-start mb-lg-4">Secure, Well-Managed Living</h2>
+                <div class="from-end">
+                  <p class="fs-xl text-light pb-2 mb-lg-5">
+                    Mirpur DOHS Porishod is a premier residential society in Dhaka—planned by the <br
+                      class="d-md-flex d-none">
+                    Armed Forces—upholding security, order and a high standard of urban life.
+                  </p>
+                </div>
+                <div class="scale-up delay-1">
+                  <a href="about.html" class="btn btn-info-custom btn-lg">
+                    <i class="bx bx-info-circle fs-5 lh-1 me-2" aria-hidden="true"></i>
+                    About Us
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide hero-slide">
+            <div class="slide-bg" style="background-image:url('assets/img/mosque.jpeg');"></div>
+            <div class="slide-overlay"></div>
+
+            <div class="container position-relative h-100">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
+                <h2 class="display-2 from-end mb-lg-4">Resident Services, Done Right</h2>
+                <div class="from-start">
+                  <p class="fs-xl text-light pb-2 mb-lg-5">
+                    Security patrols, sanitation, maintenance &amp; beautification, health &amp; hygiene, <br
+                      class="d-md-flex d-none">
+                    sports &amp; culture, and mosque support—delivered with consistency.
+                  </p>
+                </div>
+                <div class="scale-up delay-1">
+                  <a href="services.html" class="btn btn-info-custom btn-lg">
+                    <i class="bx bx-cog fs-5 lh-1 me-2" aria-hidden="true"></i>
+                    View Services
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide hero-slide">
+            <div class="slide-bg" style="background-image:url('https://mirpurdohs.netlify.app/images/slider/03.jpg');">
+            </div>
+            <div class="slide-overlay"></div>
+
+            <div class="container position-relative h-100">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
+                <h2 class="display-2 from-start mb-lg-4">Official Notices &amp; Events</h2>
+                <div class="from-end">
+                  <p class="fs-xl text-light pb-2 mb-lg-5">
+                    Circulars, announcements and community programmes—published centrally for residents to stay
+                    informed.
+                  </p>
+                </div>
+                <div class="scale-up delay-1">
+                  <a href="notices-events.html" class="btn btn-info-custom btn-lg">
+                    <i class="bx bx-news fs-5 lh-1 me-2" aria-hidden="true"></i>
+                    View Notices &amp; Events
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-80">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Text -->
+          <div class="col-lg-6">
+            <h1 class="pb-2 pb-md-3">About Mirpur DOHS Parishad</h1>
+            <p class="fs-xl pb-4 mb-1 mb-md-2 mb-lg-3" style="max-width: 526px;">
+              Mirpur DOHS is one of Dhaka’s most respected and secure residential communities, developed by the Armed
+              Forces of Bangladesh.
+              Originally designed for retired defence personnel, it has grown into a model neighborhood—known for order,
+              discipline, and modern urban living—welcoming families who value safety, greenery, and a peaceful
+              environment.
+            </p>
+            <div class="row row-cols-3 pt-4 pt-md-5">
+              <div class="col">
+                <h3 class="h2 mb-2">100%</h3>
+                <p class="mb-0"><strong>Gated</strong> Security Coverage</p>
+              </div>
+              <div class="col">
+                <h3 class="h2 mb-2">24/7</h3>
+                <p class="mb-0"><strong>Emergency</strong> Support</p>
+              </div>
+              <div class="col">
+                <h3 class="h2 mb-2">Green</h3>
+                <p class="mb-0"><strong>Tree-Lined</strong> Streets</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Images -->
+          <div class="col-lg-6 mt-xl-3 pt-5 pt-lg-4">
+            <div class="row row-cols-2 gx-3 gx-lg-4">
+              <div class="col pt-lg-5 mt-lg-1">
+                <img src="assets/img/Mirpur_DOHS.jpg" class="d-block rounded-3 mb-3 mb-lg-4"
+                  alt="Main gate of Mirpur DOHS">
+                <img src="assets/img/mosque.jpeg" class="d-block rounded-3" alt="Clean footpaths in Mirpur DOHS">
+              </div>
+              <div class="col">
+                <img src="assets/img/mosque.jpeg" class="d-block rounded-3 mb-3 mb-lg-4" alt="Greenery in Mirpur DOHS">
+                <img src="assets/img/Mirpur_DOHS.jpg" class="d-block rounded-3"
+                  alt="Wide roads and infrastructure in Mirpur DOHS">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="py-80">
+      <div class="container">
+        <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
+          <h2 class="h1">Living in Mirpur DOHS</h2>
+          <p class="mb-0">
+            A well-organized, secure, and connected community—designed for peaceful urban living.
+          </p>
+        </div>
+
+        <!-- Steps -->
+        <div class="steps steps-sm steps-horizontal-md steps-center pb-5 mb-md-2 mb-lg-3">
+          <div class="step">
+            <div class="step-number">
+              <div class="step-number-inner">1</div>
+            </div>
+            <div class="step-body">
+              <h3 class="h4 mb-3">Secure Environment</h3>
+              <p class="mb-0">
+                24/7 monitoring and access control under the DOHS Welfare Association for resident safety.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">
+              <div class="step-number-inner">2</div>
+            </div>
+            <div class="step-body">
+              <h3 class="h4 mb-3">Modern Infrastructure</h3>
+              <p class="mb-0">
+                Wide roads, modern drainage, and clean footpaths ensure smooth daily life.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">
+              <div class="step-number-inner">3</div>
+            </div>
+            <div class="step-body">
+              <h3 class="h4 mb-3">Community Values</h3>
+              <p class="mb-0">
+                Clear rules, respect, and collaboration maintain harmony among residents and businesses.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">
+              <div class="step-number-inner">4</div>
+            </div>
+            <div class="step-body">
+              <h3 class="h4 mb-3">Resident Support</h3>
+              <p class="mb-0">
+                Dedicated services, from health and sanitation to sports and culture, for an enriched lifestyle.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video -->
+        <!-- <div class="video-section bg-secondary position-relative rounded-3 overflow-hidden">
+          <div
+            class="position-absolute top-50 start-50 w-75 h-75 translate-middle d-flex align-items-center justify-content-center zindex-5">
+            <a href="https://www.youtube.com/watch?v=wODsNtortYw"
+              class="btn btn-video btn-icon btn-xl bg-white stretched-link" data-bs-toggle="video"
+              aria-label="Play video">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+          <div>
+            <img src="assets/img/Mirpur_DOHS.jpg" class="rellax img-fluid"
+              alt="Mirpur DOHS Overview Video" data-rellax-percentage="0.5" data-rellax-speed="1.1"
+              data-disable-parallax-down="lg">
+          </div>
+        </div> -->
+      </div>
+
+    </section>
+
+    <section class="pb-80">
+      <div class="container">
+        <h2 class="h1 text-center pb-3 pb-lg-4">Services & Fees</h2>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs flex-nowrap justify-content-lg-center overflow-auto pb-2 mb-3 mb-lg-4" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-nowrap active" id="plot-owner-tab" data-bs-toggle="tab"
+              data-bs-target="#plot-owner" type="button" role="tab" aria-controls="plot-owner" aria-selected="true">
+              <i class="bx bx-home fs-lg opacity-60 me-2"></i>
+              Plot Owner
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-nowrap" id="flat-owner-tab" data-bs-toggle="tab" data-bs-target="#flat-owner"
+              type="button" role="tab" aria-controls="flat-owner" aria-selected="false">
+              <i class="bx bx-building-house fs-lg opacity-60 me-2"></i>
+              Flat Owner
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-nowrap" id="tenant-tab" data-bs-toggle="tab" data-bs-target="#tenant"
+              type="button" role="tab" aria-controls="tenant" aria-selected="false">
+              <i class="bx bx-id-card fs-lg opacity-60 me-2"></i>
+              Tenant
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-nowrap" id="office-tab" data-bs-toggle="tab" data-bs-target="#office"
+              type="button" role="tab" aria-controls="office" aria-selected="false">
+              <i class="bx bx-briefcase-alt-2 fs-lg opacity-60 me-2"></i>
+              Office
+            </button>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content bg-secondary rounded-3 py-4 px-3">
+
+          <!-- Plot Owner -->
+          <div class="tab-pane fade my-md-4 show active" id="plot-owner" role="tabpanel"
+            aria-labelledby="plot-owner-tab">
+            <div class="row align-items-center gy-4">
+              <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+                <h3 class="mb-lg-4">Plot Owner Services</h3>
+                <p class="mb-0">
+                  Transparent monthly subscriptions for essential community services: security, mosque support,
+                  maintenance & beautification, health & sanitation, and sports & culture. Annual AGM charge applies
+                  once
+                  per year.
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-7">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body p-4">
+                    <h4 class="h5 mb-3">Monthly Fees</h4>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Membership Subscription <span>৳100</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Security Subscription <span>৳200</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Mosque Subscription <span>৳100</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Maintenance &amp; Beautification <span>৳40</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Health, Hygiene &amp; Sanitation <span>৳130</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Sports &amp; Culture Subscription <span>৳30</span>
+                      </li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <strong>Total Monthly</strong>
+                      <strong>৳600</strong>
+                    </div>
+                    <hr class="my-4">
+                    <h4 class="h6 mb-2">Annual Fee</h4>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>AGM Charge (Yearly)</span>
+                      <strong>৳500</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flat Owner -->
+          <div class="tab-pane fade my-md-4" id="flat-owner" role="tabpanel" aria-labelledby="flat-owner-tab">
+            <div class="row align-items-center gy-4">
+              <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+                <h3 class="mb-lg-4">Flat Owner Services</h3>
+                <p class="mb-0">
+                  The same community services and structure as plot owners, with simple monthly subscriptions and an
+                  annual AGM contribution.
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-7">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body p-4">
+                    <h4 class="h5 mb-3">Monthly Fees</h4>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Membership Subscription <span>৳100</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Security Subscription <span>৳200</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Mosque Subscription <span>৳100</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Maintenance &amp; Beautification <span>৳40</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Health, Hygiene &amp; Sanitation <span>৳130</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Sports &amp; Culture Subscription <span>৳30</span>
+                      </li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <strong>Total Monthly</strong>
+                      <strong>৳600</strong>
+                    </div>
+                    <hr class="my-4">
+                    <h4 class="h6 mb-2">Annual Fee</h4>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>AGM Charge (Yearly)</span>
+                      <strong>৳500</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tenant -->
+          <div class="tab-pane fade my-md-4" id="tenant" role="tabpanel" aria-labelledby="tenant-tab">
+            <div class="row align-items-center gy-4">
+              <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+                <h3 class="mb-lg-4">Tenant Services</h3>
+                <p class="mb-0">
+                  Monthly subscriptions for shared services within the community—security, mosque, maintenance,
+                  sanitation, and sports & culture.
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-7">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body p-4">
+                    <h4 class="h5 mb-3">Monthly Fees</h4>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Security Subscription <span>৳300</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Mosque Subscription <span>৳100</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Maintenance &amp; Beautification <span>৳40</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Health, Hygiene &amp; Sanitation <span>৳130</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Sports &amp; Culture Subscription <span>৳30</span>
+                      </li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <strong>Total Monthly</strong>
+                      <strong>৳600</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Office -->
+          <div class="tab-pane fade my-md-4" id="office" role="tabpanel" aria-labelledby="office-tab">
+            <div class="row align-items-center gy-4">
+              <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+                <h3 class="mb-lg-4">Office Premises</h3>
+                <p class="mb-0">
+                  Fixed monthly subscription for offices within Mirpur DOHS. Select according to floor area.
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-7">
+                <div class="card border-0 shadow-sm">
+                  <div class="card-body p-4">
+                    <h4 class="h5 mb-3">Monthly Fees</h4>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Office Full (2,200 sq ft) <strong>৳1,600</strong>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        Office Half (1,100 sq ft) <strong>৳800</strong>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-80">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap gap-4 justify-content-between align-items-center mb-md-5 mb-4 pb-xl-3 pb-lg-2 pb-md-0 pb-sm-2">
+          <h2 class="h1 mb-0">Governing Body</h2>
+          <div>
+            <a href="/governing-body"
+              class="btn btn-outline-primary btn-lg d-inline-flex align-items-center justify-content-center gap-2 px-4">
+              <i class="bx bx-group fs-4"></i>
+              <span>See all members</span>
+              <i class="bx bx-right-arrow-alt fs-4"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Tabs -->
+        <div class="row gy-4 gx-md-4 gx-3">
+
+          <!-- Nav tabs -->
+          <div class="col-lg-5">
+            <ul class="nav nav-tabs flex-column" role="tablist">
+              <li class="nav-item mb-3">
+                <a href="#gb-1"
+                  class="nav-link flex-md-row flex-sm-column align-items-md-center align-items-sm-start align-items-center p-md-4 p-3 rounded-3 fw-normal active"
+                  data-bs-toggle="tab" role="tab">
+                  <img src="assets/img/ec-member/01.jpg" width="56" height="56" alt="Maj Gen Humayun Khaled, psc (Retd)"
+                    class="rounded-circle me-md-3 me-sm-0 me-3 mb-md-0 mb-sm-2">
+                  <div>
+                    <span class="d-block mb-0 fs-lg fw-semibold">Maj Gen Humayun Khaled, psc (Retd)</span>
+                    President
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mb-3">
+                <a href="#gb-2"
+                  class="nav-link flex-md-row flex-sm-column align-items-md-center align-items-sm-start align-items-center p-md-4 p-3 rounded-3 fw-normal"
+                  data-bs-toggle="tab" role="tab">
+                  <img src="assets/img/ec-member/02.jpg" width="56" height="56" alt="Lt Col Syed Hasan Iqbal (Retd)"
+                    class="rounded-circle me-md-3 me-sm-0 me-3 mb-md-0 mb-sm-2">
+                  <div>
+                    <span class="d-block mb-0 fs-lg fw-semibold">Lt Col Syed Hasan Iqbal (Retd)</span>
+                    Sr Vice President
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mb-0">
+                <a href="#gb-3"
+                  class="nav-link flex-md-row flex-sm-column align-items-md-center align-items-sm-start align-items-center p-md-4 p-3 rounded-3 fw-normal"
+                  data-bs-toggle="tab" role="tab">
+                  <img src="assets/img/ec-member/03.jpg" width="56" height="56"
+                    alt="Brig Gen Farooque Ahamed Chowdhury, psc, PEng (Retd)"
+                    class="rounded-circle me-md-3 me-sm-0 me-3 mb-md-0 mb-sm-2">
+                  <div>
+                    <span class="d-block mb-0 fs-lg fw-semibold">Brig Gen Farooque Ahamed Chowdhury, psc, PEng
+                      (Retd)</span>
+                    Vice President
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tabs content -->
+          <div class="col-lg-6 offset-lg-1">
+            <div class="tab-content ps-lg-0 ps-md-4">
+
+              <!-- President -->
+              <div class="tab-pane fade show active" id="gb-1" role="tabpanel">
+                <h4 class="mb-3">President’s Message</h4>
+                <p class="fs-lg mb-0">
+                  “Mirpur DOHS was envisioned as a calm, well-ordered neighborhood where families feel secure and
+                  respected.
+                  That spirit—discipline, courtesy, and service—still guides us today. We work to keep our roads clear,
+                  our footpaths clean, and our surroundings green, while ensuring a quiet, dignified environment for
+                  all.
+                  I invite every resident to stay engaged with notices, follow community guidelines, and take part in
+                  initiatives that strengthen our shared home.”
+                </p>
+              </div>
+
+              <!-- Sr Vice President -->
+              <div class="tab-pane fade" id="gb-2" role="tabpanel">
+                <h4 class="mb-3">Senior Vice President’s Message</h4>
+                <p class="fs-lg mb-0">
+                  “Good communities run on simple, reliable services—security that is attentive, maintenance that is
+                  regular,
+                  sanitation that is timely, and programs that bring people together. Our subscriptions are
+                  straightforward
+                  and transparent, and our control room is here to help whenever you need support. If something needs
+                  attention,
+                  let us know early; we will respond clearly and keep you updated. Together, we can keep daily life
+                  smooth
+                  and respectful for everyone.”
+                </p>
+              </div>
+
+              <!-- Vice President -->
+              <div class="tab-pane fade" id="gb-3" role="tabpanel">
+                <h4 class="mb-3">Vice President’s Message</h4>
+                <p class="fs-lg mb-0">
+                  “Our focus is the basics done well—sound infrastructure, orderly traffic, dependable utilities,
+                  and clean public spaces. We coordinate closely with relevant services so issues are logged,
+                  resolved, and prevented where possible. Thank you for observing the community rules and for
+                  treating shared areas with care. Your cooperation helps us preserve the quiet, safe character
+                  that makes Mirpur DOHS special.”
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary border-bottom border-light py-5">
+      <div class="container py-md-3 py-lg-5">
+        <h2 class="h1 text-center pb-2">Notices</h2>
+        <div class="position-relative mx-md-2 px-md-5">
+
+          <!-- Slider controls (Prev / next) -->
+          <button type="button" id="news-prev"
+            class="btn btn-prev btn-icon btn-sm position-absolute top-50 start-0 translate-middle-y mt-n4 d-none d-md-inline-flex"
+            aria-label="Previous">
+            <i class="bx bx-chevron-left"></i>
+          </button>
+          <button type="button" id="news-next"
+            class="btn btn-next btn-icon btn-sm position-absolute top-50 end-0 translate-middle-y mt-n4 d-none d-md-inline-flex"
+            aria-label="Next">
+            <i class="bx bx-chevron-right"></i>
+          </button>
+
+          <!-- Swiper slider -->
+          <div class="swiper swiper-nav-onhover mx-n2" data-swiper-options='{
+          "slidesPerView": 1,
+          "loop": true,
+          "spaceBetween": 8,
+          "pagination": { "el": ".swiper-pagination", "clickable": true },
+          "navigation": { "prevEl": "#news-prev", "nextEl": "#news-next" },
+          "breakpoints": { "0": { "slidesPerView": 1 }, "560": { "slidesPerView": 2 }, "992": { "slidesPerView": 3 } }
+        }'>
+            <div class="swiper-wrapper">
+
+              <!-- Notice 1 -->
+              <div class="swiper-slide h-auto py-3">
+                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                  <div class="card-body pb-0">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Security</span>
+                      <span class="fs-sm text-muted">Aug 10, 2025</span>
+                    </div>
+                    <h3 class="h4">Gate Entry &amp; Visitor Pass Update</h3>
+                    <p class="mb-0">Residents are requested to carry valid ID. Visitor passes will be issued from the
+                      Control Room during posted hours.</p>
+                  </div>
+                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Gate%20Entry%20%26%20Visitor%20Pass%20Update%0ADate%3A%20Aug%2010%2C%202025%0ADetails%3A%20Carry%20valid%20ID.%20Visitor%20passes%20from%20Control%20Room%20during%20posted%20hours."
+                      download="Notice-Gate-Entry.txt" class="text-decoration-none text-primary" title="Download notice"
+                      aria-label="Download notice">
+                      <i class="bx bx-download fs-4"></i>
+                    </a>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Notice 2 -->
+              <div class="swiper-slide h-auto py-3">
+                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                  <div class="card-body pb-0">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Utilities</span>
+                      <span class="fs-sm text-muted">Aug 08, 2025</span>
+                    </div>
+                    <h3 class="h4">WASA Maintenance — Temporary Water Disruption</h3>
+                    <p class="mb-0">Scheduled maintenance may affect supply on select roads. Please store water in
+                      advance.</p>
+                  </div>
+                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20WASA%20Maintenance%20%E2%80%94%20Temporary%20Water%20Disruption%0ADate%3A%20Aug%2008%2C%202025%0ADetails%3A%20Maintenance%20may%20affect%20supply%20on%20select%20roads.%20Store%20water%20in%20advance."
+                      download="Notice-WASA-Maintenance.txt" class="text-decoration-none text-primary"
+                      title="Download notice" aria-label="Download notice">
+                      <i class="bx bx-download fs-4"></i>
+                    </a>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Notice 3 -->
+              <div class="swiper-slide h-auto py-3">
+                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                  <div class="card-body pb-0">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Community</span>
+                      <span class="fs-sm text-muted">Aug 05, 2025</span>
+                    </div>
+                    <h3 class="h4">Clean-Up Drive — Volunteer Sign-up</h3>
+                    <p class="mb-0">Join residents in a neighborhood clean-up. Gloves and bags will be provided.</p>
+                  </div>
+                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Clean-Up%20Drive%20%E2%80%94%20Volunteer%20Sign-up%0ADate%3A%20Aug%2005%2C%202025%0ADetails%3A%20Join%20residents%20in%20a%20neighborhood%20clean-up.%20Gloves%20and%20bags%20will%20be%20provided."
+                      download="Notice-Cleanup-Drive.txt" class="text-decoration-none text-primary"
+                      title="Download notice" aria-label="Download notice">
+                      <i class="bx bx-download fs-4"></i>
+                    </a>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Notice 4 -->
+              <div class="swiper-slide h-auto py-3">
+                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                  <div class="card-body pb-0">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Religious</span>
+                      <span class="fs-sm text-muted">Aug 03, 2025</span>
+                    </div>
+                    <h3 class="h4">Mosque Arrangements — Friday Congregation</h3>
+                    <p class="mb-0">Please arrive early and follow volunteers’ guidance for orderly entry and parking.
+                    </p>
+                  </div>
+                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Mosque%20Arrangements%20%E2%80%94%20Friday%20Congregation%0ADate%3A%20Aug%2003%2C%202025%0ADetails%3A%20Please%20arrive%20early%20and%20follow%20volunteers%E2%80%99%20guidance%20for%20orderly%20entry%20and%20parking."
+                      download="Notice-Mosque-Arrangements.txt" class="text-decoration-none text-primary"
+                      title="Download notice" aria-label="Download notice">
+                      <i class="bx bx-download fs-4"></i>
+                    </a>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Notice 5 -->
+              <div class="swiper-slide h-auto py-3">
+                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
+                  <div class="card-body pb-0">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Administration</span>
+                      <span class="fs-sm text-muted">Aug 01, 2025</span>
+                    </div>
+                    <h3 class="h4">Annual General Meeting (AGM) — Schedule &amp; Agenda</h3>
+                    <p class="mb-0">Members are requested to review the agenda and attend as per the announced schedule.
+                    </p>
+                  </div>
+                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Annual%20General%20Meeting%20(AGM)%20%E2%80%94%20Schedule%20%26%20Agenda%0ADate%3A%20Aug%2001%2C%202025%0ADetails%3A%20Members%20are%20requested%20to%20review%20the%20agenda%20and%20attend%20as%20per%20the%20announced%20schedule."
+                      download="Notice-AGM-Agenda.txt" class="text-decoration-none text-primary" title="Download notice"
+                      aria-label="Download notice">
+                      <i class="bx bx-download fs-4"></i>
+                    </a>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+
+            <!-- Pagination (bullets) -->
+            <div class="swiper-pagination position-relative pt-2 pt-sm-3 mt-4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="gallery py-80">
+      <div class="container">
+        <div class="d-flex flex-wrap gap-4 justify-content-between align-items-center mb-4">
+          <h2 class="fw-bold mb-0">Our Gallery</h2>
+          <div>
+            <a href="gallery.html" class="btn btn-outline-primary d-inline-flex align-items-center gap-2">
+              <i class="bx bx-images fs-4"></i>
+              <span>See all images</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Owl Carousel -->
+        <div class="owl-carousel owl-theme gallery-carousel">
+
+          <!-- football (4) -->
+          <div><img class="img-fluid rounded" src="assets/img/footbal/01.jpg" alt="Football match at Mirpur DOHS"
+              loading="lazy"></div>
+          <div><img class="img-fluid rounded" src="assets/img/footbal/02.jpg" alt="Football training session"
+              loading="lazy"></div>
+          <div><img class="img-fluid rounded" src="assets/img/footbal/03.jpg" alt="Football tournament moments"
+              loading="lazy"></div>
+          <div><img class="img-fluid rounded" src="assets/img/footbal/04.jpg" alt="Team photo after match"
+              loading="lazy"></div>
+
+          <!-- boishakhi (3) -->
+          <div><img class="img-fluid rounded" src="assets/img/boishakhi/01.JPG" alt="Pohela Boishakh celebration"
+              loading="lazy"></div>
+          <div><img class="img-fluid rounded" src="assets/img/boishakhi/02.JPG" alt="Cultural program — Boishakh"
+              loading="lazy"></div>
+          <div><img class="img-fluid rounded" src="assets/img/boishakhi/03.jpg" alt="Boishakhi procession"
+              loading="lazy"></div>
+
+          <!-- marathon (2) -->
+          <div><img class="img-fluid rounded" src="assets/img/marathon/01.jpg" alt="Community marathon start"
+              loading="lazy"></div>
+          <div><img class="img-fluid rounded" src="assets/img/marathon/02.jpg" alt="Participants running in marathon"
+              loading="lazy"></div>
+
+          <!-- tree plantation (1) -->
+          <div><img class="img-fluid rounded" src="assets/img/treeplantation/01.jpg" alt="Tree plantation program"
+              loading="lazy"></div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer blue-bg pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
+    <div class="container pt-lg-4">
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+            <img src="assets/img/logo.png" width="64" alt="Mirpur DOHS Porishod">
+            MIRPUR DOHS PORISHOD
+          </div>
+          <p class="text-light pb-lg-3 mb-4">
+            Mirpur DOHS is one of Dhaka’s most prestigious and secure residential communities,
+            developed by the Armed Forces of Bangladesh. We uphold discipline, safety and
+            modern urban living through well-planned infrastructure and community standards.
+          </p>
+          <h6 class="mb-2">Contact Us</h6>
+          <ul class="nav flex-column mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="tel:+880244806644" class="nav-link d-inline-block px-0 pt-1 pb-2">
+                <i class="bx bx-phone fs-5 me-2 align-middle" aria-hidden="true"></i>
+                02-44806644
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto:mirpurdohsporshod@gmail.com" class="nav-link d-inline-block px-0 pt-1 pb-2">
+                <i class="bx bx-envelope fs-5 me-2 align-middle" aria-hidden="true"></i>
+                mirpurdohsporshod@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-xl-7 col-lg-7 col-md-5 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+          <div id="footer-links" class="row">
+
+            <!-- Useful Links -->
+            <div class="col-lg-4">
+              <h6 class="mb-2">
+                <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                  data-bs-toggle="collapse">Useful Links</a>
+              </h6>
+              <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                  <li class="nav-item"><a href="index.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
+                  <li class="nav-item"><a href="about.html" class="nav-link d-inline-block px-0 pt-1 pb-2">About Us</a>
+                  </li>
+                  <li class="nav-item"><a href="governing-body.html"
+                      class="nav-link d-inline-block px-0 pt-1 pb-2">Governing Body</a></li>
+                  <li class="nav-item"><a href="services.html"
+                      class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
+                  <li class="nav-item"><a href="notices-events.html"
+                      class="nav-link d-inline-block px-0 pt-1 pb-2">Notices &amp; Events</a></li>
+                  <li class="nav-item"><a href="forms-downloads.html"
+                      class="nav-link d-inline-block px-0 pt-1 pb-2">Forms &amp; Downloads</a></li>
+                  <li class="nav-item"><a href="gallery.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Gallery</a>
+                  </li>
+                  <li class="nav-item"><a href="contact.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Contact</a>
+                  </li>
+                </ul>
+                <ul class="nav flex-column mb-2 mb-lg-0">
+                  <li class="nav-item"><a href="terms.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp;
+                      Conditions</a></li>
+                  <li class="nav-item"><a href="privacy.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy
+                      Policy</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Socials -->
+            <div class="col-xl-4 col-lg-3">
+              <h6 class="mb-2">
+                <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                  data-bs-toggle="collapse">Socials</a>
+              </h6>
+              <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                <ul class="nav flex-column mb-2 mb-lg-0">
+                  <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">X (Twitter)</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+              <h6 class="mb-2">Address</h6>
+              <ul class="nav flex-column mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <span class="text-light d-inline-block px-0 pt-1 pb-2">
+                    <i class="bx bx-map fs-5 me-2 align-middle" aria-hidden="true"></i>
+                    Porishod Building, Road 06, Mirpur DOHS, Dhaka 1216, Bangladesh
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
+        <span class="text-light">&copy; 2025 Mirpur DOHS Porishod. All rights reserved.</span>
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- Back to top button -->
+  <a href="#top" class="btn-scroll-top" data-scroll>
+    <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+    <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+  </a>
+
+
+  <!-- Vendor Scripts -->
+  <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main Theme Script -->
+  <script src="assets/js/theme.min.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <!-- Owl assets (include once) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+
+  <script>
+    $(function () {
+      $('.gallery-carousel').owlCarousel({
+        loop: true,
+        margin: 16,
+        // nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+        smartSpeed: 600,
+        responsive: {
+          0: { items: 1 },
+          576: { items: 2 },
+          992: { items: 3 },
+          1200: { items: 4 }
+        },
+        navText: ['<i class="bx bx-chevron-left"></i>', '<i class="bx bx-chevron-right"></i>']
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.swiper').forEach(function (el) {
+        let opts = {};
+        const attr = el.getAttribute('data-swiper-options');
+        if (attr) { try { opts = JSON.parse(attr); } catch (e) { console.warn('Bad data-swiper-options JSON', e); } }
+
+        const defaults = {
+          loop: true,
+          speed: 600,
+          spaceBetween: 12,
+          watchOverflow: true,
+          keyboard: { enabled: true, onlyInViewport: true },
+          a11y: { enabled: true },
+          autoplay: { delay: 4500, disableOnInteraction: false, pauseOnMouseEnter: true },
+          grabCursor: true,
+          slidesPerView: 1,
+          breakpoints: { 0: { slidesPerView: 1 }, 768: { slidesPerView: 2 }, 1200: { slidesPerView: 3 } },
+          pagination: {
+            el: (el.parentElement && el.parentElement.querySelector('.swiper-pagination')) || null,
+            clickable: true
+          },
+          navigation: {
+            prevEl: (el.parentElement && el.parentElement.querySelector('.btn-prev')) || null,
+            nextEl: (el.parentElement && el.parentElement.querySelector('.btn-next')) || null
+          },
+          observer: true,
+          observeParents: true
+        };
+
+        const merged = Object.assign({}, defaults, opts);
+        if (opts.breakpoints) merged.breakpoints = Object.assign({}, defaults.breakpoints, opts.breakpoints);
+        if (opts.pagination && opts.pagination.el) merged.pagination.el = opts.pagination.el;
+        if (opts.navigation) {
+          const prev = document.querySelector(opts.navigation.prevEl) || merged.navigation.prevEl;
+          const next = document.querySelector(opts.navigation.nextEl) || merged.navigation.nextEl;
+          merged.navigation = { prevEl: prev, nextEl: next };
+        }
+
+        new Swiper(el, merged);
+      });
+    });
+  </script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const swiper = new Swiper('.hero-swiper', {
+        loop: true,
+        speed: 1000,
+        effect: 'fade',
+        fadeEffect: { crossFade: true },
+        autoplay: { delay: 5200, disableOnInteraction: false },
+
+        on: {
+          slideChangeTransitionStart(s) {
+            const active = s.slides[s.activeIndex];
+            active.querySelectorAll('.reveal-up, .reveal-left, .reveal-right').forEach(el => {
+              el.style.transition = 'none';
+              el.offsetHeight;
+              el.style.transition = '';
+            });
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>

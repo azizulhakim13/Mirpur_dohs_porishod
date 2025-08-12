@@ -1,0 +1,128 @@
+@import "custom";
+
+:root {
+  --footer-bg: #d9eeff;
+  --red-theme: #ed1c24;
+  --blue-theme: #00aeef;
+  --blue1: #2e3192;
+}
+
+.primary-color {
+  color: var(--blue1);
+}
+
+.blue-bg {
+  background-color: var(--blue1);
+}
+
+.btn-danger-custom {
+  --si-btn-color: #fff;
+  --si-btn-bg: #ed1c24;
+  --si-btn-border-color: #ed1c24;
+
+  --si-btn-hover-color: #fff;
+  --si-btn-hover-bg: #ef4444;
+  --si-btn-hover-border-color: #ef4444;
+
+  --si-btn-active-color: #fff;
+  --si-btn-active-bg: #f03e45;
+  --si-btn-active-border-color: #f03e45;
+
+  --si-btn-disabled-color: #fff;
+  --si-btn-disabled-bg: #ed1c24;
+  --si-btn-disabled-border-color: #ed1c24;
+
+  --si-btn-focus-shadow-rgb: 237, 28, 36;
+  --si-btn-active-shadow: unset;
+
+  transition: background-color 0.22s ease, border-color 0.22s ease,
+    color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.btn-info-custom {
+  --si-btn-color: #fff;
+  --si-btn-bg: #00aeef;
+  --si-btn-border-color: #00aeef;
+
+  --si-btn-hover-color: #fff;
+  --si-btn-hover-bg: #009dd7;
+  --si-btn-hover-border-color: #009dd7;
+
+  --si-btn-active-color: #fff;
+  --si-btn-active-bg: #009dd7;
+  --si-btn-active-border-color: #009dd7;
+
+  --si-btn-disabled-color: #fff;
+  --si-btn-disabled-bg: #00aeef;
+  --si-btn-disabled-border-color: #00aeef;
+
+  --si-btn-focus-shadow-rgb: 0, 174, 239;
+  --si-btn-active-shadow: unset;
+
+  transition: background-color 0.22s ease, border-color 0.22s ease,
+    color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.nav-tabs .nav-link img.rounded-circle {
+  width:56px;
+  height:56px;
+  object-fit:cover;
+  object-position:center;
+  flex-shrink:0;
+}
+
+
+// video-section
+.video-section {
+  max-height: 600px;
+  object-fit: contain;
+}
+
+.footer {
+  .nav-link:focus,
+  .nav-link:hover {
+    color: var(--red-theme);
+  }
+}
+
+    .pb-80 {
+    padding-bottom: 80px;
+  }
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .logo-name {
+    font-size: 16px;
+  }
+
+    .pb-80 {
+    padding-bottom: 40px;
+  }
+
+  .pb-100 {
+    padding-bottom: 40px;
+  }
+
+  .py-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .py-100 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

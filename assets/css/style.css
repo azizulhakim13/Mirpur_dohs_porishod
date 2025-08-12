@@ -1,0 +1,205 @@
+.hero-slider {
+  position: relative;
+  height: 100vh;
+  min-height: 560px;
+  background: #000;
+  overflow: hidden;
+}
+
+.hero-slider .swiper-slide {
+  height: 100vh !important;
+}
+
+.hero-slide {
+  position: relative;
+  height: 100%;
+}
+
+.hero-slide .slide-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.04);
+  transition: transform 1.2s ease, opacity 1.2s ease;
+  will-change: transform, opacity;
+}
+
+.hero-slide .slide-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(11, 15, 25, 0.38), rgba(11, 15, 25, 0.58)) !important;
+  pointer-events: none;
+}
+
+/* Ken Burns when active */
+.swiper-slide-active .slide-bg {
+  animation: kb-zoom 7.5s ease-in-out forwards;
+}
+
+@keyframes kb-zoom {
+  0% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/* Swiper UI on dark */
+.hero-swiper .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.hero-swiper .swiper-button-prev,
+.hero-swiper .swiper-button-next {
+  color: #fff;
+}
+
+/* Content reveals (CSS-only, retriggers on active change) */
+.reveal-up, .reveal-left, .reveal-right {
+  opacity: 0;
+  transform: translate3d(0, 10px, 0);
+  transition: all .7s ease;
+}
+
+.reveal-left {
+  transform: translate3d(-18px, 0, 0);
+}
+
+.reveal-right {
+  transform: translate3d(18px, 0, 0);
+}
+
+.delay-1 {
+  transition-delay: .12s;
+}
+
+.delay-2 {
+  transition-delay: .24s;
+}
+
+/* When slide becomes active */
+.swiper-slide-active .reveal-up,
+.swiper-slide-active .reveal-left,
+.swiper-slide-active .reveal-right {
+  opacity: 1;
+  transform: none;
+}
+
+:root {
+  --footer-bg: #d9eeff;
+  --red-theme: #ed1c24;
+  --blue-theme: #00aeef;
+  --blue1: #2e3192;
+}
+
+.primary-color {
+  color: var(--blue1);
+}
+
+.blue-bg {
+  background-color: var(--blue1);
+}
+
+.btn-danger-custom {
+  --si-btn-color: #fff;
+  --si-btn-bg: #ed1c24;
+  --si-btn-border-color: #ed1c24;
+  --si-btn-hover-color: #fff;
+  --si-btn-hover-bg: #ef4444;
+  --si-btn-hover-border-color: #ef4444;
+  --si-btn-active-color: #fff;
+  --si-btn-active-bg: #f03e45;
+  --si-btn-active-border-color: #f03e45;
+  --si-btn-disabled-color: #fff;
+  --si-btn-disabled-bg: #ed1c24;
+  --si-btn-disabled-border-color: #ed1c24;
+  --si-btn-focus-shadow-rgb: 237, 28, 36;
+  --si-btn-active-shadow: unset;
+  transition: background-color 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.btn-info-custom {
+  --si-btn-color: #fff;
+  --si-btn-bg: #00aeef;
+  --si-btn-border-color: #00aeef;
+  --si-btn-hover-color: #fff;
+  --si-btn-hover-bg: #009dd7;
+  --si-btn-hover-border-color: #009dd7;
+  --si-btn-active-color: #fff;
+  --si-btn-active-bg: #009dd7;
+  --si-btn-active-border-color: #009dd7;
+  --si-btn-disabled-color: #fff;
+  --si-btn-disabled-bg: #00aeef;
+  --si-btn-disabled-border-color: #00aeef;
+  --si-btn-focus-shadow-rgb: 0, 174, 239;
+  --si-btn-active-shadow: unset;
+  transition: background-color 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.nav-tabs .nav-link img.rounded-circle {
+  width: 56px;
+  height: 56px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  flex-shrink: 0;
+}
+
+.video-section {
+  max-height: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer .nav-link:focus,
+.footer .nav-link:hover {
+  color: var(--red-theme);
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .logo-name {
+    font-size: 16px;
+  }
+  .pb-80 {
+    padding-bottom: 40px;
+  }
+  .pb-100 {
+    padding-bottom: 40px;
+  }
+  .py-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .py-100 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
