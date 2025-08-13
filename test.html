@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Charset & Viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary Meta -->
+    <title>Gallery | Mirpur DOHS Parishad — Life at Mirpur DOHS</title>
+    <meta
+      name="description"
+      content="Explore the Mirpur DOHS photo gallery — Football, Pohela Boishakh, Islamic programs, Marathon, and Tree Plantation initiatives from our community."
+    />
+    <meta
+      name="keywords"
+      content="Mirpur DOHS gallery, Mirpur DOHS photos, community events, Boishakh, marathon, tree plantation, Islamic programs, Mirpur DOHS Parishad"
+    />
+    <meta name="author" content="Mirpur DOHS Parishad" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.example-dohs.org/gallery.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="bn_BD" />
+    <meta property="og:site_name" content="Mirpur DOHS Parishad" />
+    <meta
+      property="og:url"
+      content="https://www.example-dohs.org/gallery.html"
+    />
+    <meta property="og:title" content="Gallery — Mirpur DOHS Parishad" />
+    <meta
+      property="og:description"
+      content="See moments from our community: Football, Pohela Boishakh, Islamic programs, Marathon, and Tree Plantation."
+    />
+    <meta
+      property="og:image"
+      content="https://www.example-dohs.org/assets/img/og/gallery-og.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gallery — Mirpur DOHS Parishad" />
+    <meta
+      name="twitter:description"
+      content="Highlights from community life at Mirpur DOHS."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.example-dohs.org/assets/img/og/gallery-og.jpg"
+    />
+
+    <!-- PWA / Theming -->
+    <meta name="theme-color" content="#0f3d2e" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/logo.png"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo.png" />
+
+    <!-- Hreflang (if bilingual pages exist) -->
+    <link
+      rel="alternate"
+      href="https://www.example-dohs.org/gallery.html"
+      hreflang="en"
+    />
+    <link
+      rel="alternate"
+      href="https://www.example-dohs.org/bn/gallery.html"
+      hreflang="bn"
+    />
+    <link
+      rel="alternate"
+      href="https://www.example-dohs.org/gallery.html"
+      hreflang="x-default"
+    />
+
+    <!-- Structured Data (Organization) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mirpur DOHS Parishad",
+        "url": "https://www.example-dohs.org/",
+        "logo": "https://www.example-dohs.org/assets/img/logo.png",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "Control Room",
+            "telephone": "+8801814015366",
+            "areaServed": "BD"
+          },
+          {
+            "@type": "ContactPoint",
+            "contactType": "Office",
+            "telephone": "+880244806644",
+            "areaServed": "BD",
+            "email": "mirpurdohsporshod@gmail.com"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Road 06, Mirpur DOHS",
+          "addressLocality": "Dhaka",
+          "postalCode": "1216",
+          "addressCountry": "BD"
+        },
+        "sameAs": []
+      }
+    </script>
+
+    <!-- Theme switcher (color modes) -->
+    <script src="assets/js/theme-switcher.js"></script>
+
+    <!-- Favicon and Touch Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#6366f1"
+    />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#080032" />
+    <meta
+      name="msapplication-config"
+      content="assets/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Vendor Styles -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="assets/vendor/boxicons/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="assets/vendor/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Main Theme Styles + Bootstrap -->
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Page loading styles -->
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 0.4s 0.2s ease-in-out;
+        transition: all 0.4s 0.2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+
+      [data-bs-theme="dark"] .page-loading {
+        background-color: #0b0f19;
+      }
+
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity 0.2s ease-in-out;
+        transition: opacity 0.2s ease-in-out;
+        opacity: 0;
+      }
+
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+
+      .page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #9397ad;
+      }
+
+      [data-bs-theme="dark"] .page-loading-inner > span {
+        color: #fff;
+        opacity: 0.6;
+      }
+
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: 0.75rem;
+        vertical-align: text-bottom;
+        border: 0.15em solid #b4b7c9;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner 0.75s linear infinite;
+        animation: spinner 0.75s linear infinite;
+      }
+
+      [data-bs-theme="dark"] .page-spinner {
+        border-color: rgba(255, 255, 255, 0.4);
+        border-right-color: transparent;
+      }
+
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
+    <!-- Page loading scripts -->
+    <script>
+      (function () {
+        window.onload = function () {
+          const preloader = document.querySelector(".page-loading");
+          preloader.classList.remove("active");
+          setTimeout(function () {
+            preloader.remove();
+          }, 1000);
+        };
+      })();
+    </script>
+  </head>
+
+  <!-- Body -->
+
+  <body>
+    <!-- Page loading spinner -->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div>
+        <span>Loading...</span>
+      </div>
+    </div>
+
+    <main class="page-wrapper">
+      <!-- Navbar -->
+      <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
+        <div class="container px-3">
+          <a href="index.html" class="navbar-brand pe-3">
+            <img
+              src="assets/img/logo.png"
+              width="64"
+              alt="MIRPUR DOHS PORISHOD"
+            />
+            <span class="primary-color logo-name">MIRPUR DOHS PORISHOD</span>
+          </a>
+
+          <div id="navbarNav" class="offcanvas offcanvas-end">
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-xl-5 mb-2 mb-lg-0">
+                <!-- Home -->
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+
+                <!-- About (groups About Us + Governing Body) -->
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >About</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="about.html" class="dropdown-item">Overview</a>
+                    </li>
+                    <li>
+                      <a href="governing-body.html" class="dropdown-item"
+                        >Governing Body</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Services (must be top-level) -->
+                <li class="nav-item">
+                  <a href="services.html" class="nav-link">Services</a>
+                </li>
+
+                <!-- Resources (Forms & Downloads + Gallery) -->
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Resources</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="notices-events.html" class="dropdown-item"
+                        >Notices &amp; Events</a
+                      >
+                    </li>
+                    <li>
+                      <a href="gallery.html" class="dropdown-item">Gallery</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Contact -->
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Offcanvas footer CTA (unchanged placement) -->
+            <div class="offcanvas-header border-top">
+              <a
+                href="forms-downloads.html"
+                class="btn btn-danger-custom w-100"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+                Helpline
+              </a>
+            </div>
+          </div>
+
+          <!-- Desktop CTA (unchanged placement) -->
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a
+            href="helpline.html"
+            class="btn btn-danger-custom btn-sm fs-sm rounded d-none d-lg-inline-flex"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+            &nbsp;Helpline
+          </a>
+        </div>
+      </header>
+
+      <section class="bd-hero-area">
+        <div
+          class="swiper mainHeroActive swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden"
+        >
+          <div
+            class="swiper-wrapper"
+            id="swiper-wrapper-ab16aae5b8e636101"
+            aria-live="off"
+            style="transition-duration: 0ms; transition-delay: 0ms"
+          >
+            <div
+              class="swiper-slide swiper-slide-next"
+              style="
+                width: 1905px;
+                opacity: 1;
+                transform: translate3d(0px, 0px, 0px);
+                transition-duration: 0ms;
+              "
+              role="group"
+              aria-label="2 / 3"
+              data-swiper-slide-index="1"
+            >
+              <div class="bd-hero-wrapper">
+                <div
+                  class="bd-hero-thumb"
+                  data-background="assets/img/Mirpur_DOHS.jpg"
+                  style="background-image: url('assets/img/Mirpur_DOHS.jpg')"
+                ></div>
+                <div class="bd-hero-content-wrapper">
+                  <div class="container">
+                    <div
+                      class="row gy-30 align-items-end justify-content-between"
+                    >
+                      <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-11">
+                        <div class="bd-hero-right">
+                          <span class="bd-hero-subtitle mb-15"
+                            >welcome to consam</span
+                          >
+                          <h1 class="bd-hero-title">
+                            Lorem ipsum dolor sit. <span></span> Business for Success
+                          </h1>
+                        </div>
+                      </div>
+                      <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-11">
+                        <div class="bd-hero-left">
+                          <p class="bd-hero-desc">
+                            We help ambitious businesses grow with customized
+                            consulting solutions tailored to your unique goals.
+                            Let’s turn challenges into opportunities together
+                          </p>
+                          <div class="bd-hero-btn">
+                            <a class="bd-btn btn-secondary" href="contact.html"
+                              >Contact with us
+                              <i class="fa-regular fa-arrow-right-long"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-prev"
+              role="group"
+              aria-label="3 / 3"
+              style="
+                width: 1905px;
+                opacity: 1;
+                transform: translate3d(-1905px, 0px, 0px);
+                transition-duration: 0ms;
+              "
+              data-swiper-slide-index="2"
+            >
+              <div class="bd-hero-wrapper">
+                <div
+                  class="bd-hero-thumb"
+                  data-background="assets/img/mosque.jpeg"
+                  style="
+                    background-image: url('assets/img/mosque.jpeg');
+                  "
+                ></div>
+                <div class="bd-hero-content-wrapper">
+                  <div class="container">
+                    <div
+                      class="row gy-30 align-items-end justify-content-between"
+                    >
+                      <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-11">
+                        <div class="bd-hero-right">
+                          <span class="bd-hero-subtitle mb-15"
+                            >welcome to consam</span
+                          >
+                          <h1 class="bd-hero-title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing. <span></span> Business for Success
+                          </h1>
+                        </div>
+                      </div>
+                      <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-11">
+                        <div class="bd-hero-left">
+                          <p class="bd-hero-desc">
+                            We help ambitious businesses grow with customized
+                            consulting solutions tailored to your unique goals.
+                            Let’s turn challenges into opportunities together
+                          </p>
+                          <div class="bd-hero-btn">
+                            <a class="bd-btn btn-secondary" href="contact.html"
+                              >Contact with us
+                              <i class="fa-regular fa-arrow-right-long"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active"
+              style="
+                width: 1905px;
+                opacity: 1;
+                transform: translate3d(-3810px, 0px, 0px);
+                transition-duration: 0ms;
+              "
+              role="group"
+              aria-label="1 / 3"
+              data-swiper-slide-index="0"
+            >
+              <div class="bd-hero-wrapper">
+                <div
+                  class="bd-hero-thumb"
+                  data-background="assets/images/banner/banner-1/hero-1-thumb-1.webp"
+                  style="
+                    background-image: url('assets/images/banner/banner-1/hero-1-thumb-1.webp');
+                  "
+                ></div>
+                <div class="bd-hero-content-wrapper">
+                  <div class="container">
+                    <div
+                      class="row gy-30 align-items-end justify-content-between"
+                    >
+                      <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-11">
+                        <div class="bd-hero-right">
+                          <span class="bd-hero-subtitle mb-15"
+                            >welcome to consam</span
+                          >
+                          <h1 class="bd-hero-title">
+                            Lorem ipsum dolor sit. <span></span> Business for Success
+                          </h1>
+                        </div>
+                      </div>
+                      <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-11">
+                        <div class="bd-hero-left">
+                          <p class="bd-hero-desc">
+                            We help ambitious businesses grow with customized
+                            consulting solutions tailored to your unique goals.
+                            Let’s turn challenges into opportunities together
+                          </p>
+                          <div class="bd-hero-btn">
+                            <a class="bd-btn btn-secondary" href="contact.html"
+                              >Contact with us
+                              <i class="fa-regular fa-arrow-right-long"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer blue-bg pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
+      <div class="container pt-lg-4">
+        <div class="row pb-5">
+          <div class="col-lg-4 col-md-6">
+            <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+              <img
+                src="assets/img/logo.png"
+                width="64"
+                alt="Mirpur DOHS Porishod"
+              />
+              MIRPUR DOHS PORISHOD
+            </div>
+            <p class="text-light pb-lg-3 mb-4">
+              Mirpur DOHS is one of Dhaka’s most prestigious and secure
+              residential communities, developed by the Armed Forces of
+              Bangladesh. We uphold discipline, safety and modern urban living
+              through well-planned infrastructure and community standards.
+            </p>
+            <h6 class="mb-2">Contact Us</h6>
+            <ul class="nav flex-column mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  href="tel:+880244806644"
+                  class="nav-link d-inline-block px-0 pt-1 pb-2"
+                >
+                  <i
+                    class="bx bx-phone fs-5 me-2 align-middle"
+                    aria-hidden="true"
+                  ></i>
+                  02-44806644
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="mailto:mirpurdohsporshod@gmail.com"
+                  class="nav-link d-inline-block px-0 pt-1 pb-2"
+                >
+                  <i
+                    class="bx bx-envelope fs-5 me-2 align-middle"
+                    aria-hidden="true"
+                  ></i>
+                  mirpurdohsporshod@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-xl-7 col-lg-7 col-md-5 offset-md-1 pt-4 pt-md-1 pt-lg-0"
+          >
+            <div id="footer-links" class="row">
+              <!-- Useful Links -->
+              <div class="col-lg-4">
+                <h6 class="mb-2">
+                  <a
+                    href="#useful-links"
+                    class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Useful Links</a
+                  >
+                </h6>
+                <div
+                  id="useful-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                >
+                  <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                    <li class="nav-item">
+                      <a
+                        href="index.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="about.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="governing-body.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Governing Body</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="services.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Services</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="notices-events.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Notices &amp; Events</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="forms-downloads.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Forms &amp; Downloads</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="gallery.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Gallery</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="contact.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                  <ul class="nav flex-column mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a
+                        href="terms.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Terms &amp; Conditions</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        href="privacy.html"
+                        class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Socials -->
+              <div class="col-xl-4 col-lg-3">
+                <h6 class="mb-2">
+                  <a
+                    href="#social-links"
+                    class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Socials</a
+                  >
+                </h6>
+                <div
+                  id="social-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                >
+                  <ul class="nav flex-column mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Facebook</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >LinkedIn</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >X (Twitter)</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Instagram</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Contact -->
+              <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                <h6 class="mb-2">Address</h6>
+                <ul class="nav flex-column mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <span class="text-light d-inline-block px-0 pt-1 pb-2">
+                      <i
+                        class="bx bx-map fs-5 me-2 align-middle"
+                        aria-hidden="true"
+                      ></i>
+                      Porishod Building, Road 06, Mirpur DOHS, Dhaka 1216,
+                      Bangladesh
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p
+          class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0"
+        >
+          <span class="text-light"
+            >&copy; 2025 Mirpur DOHS Porishod. All rights reserved.</span
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+    <!-- Vendor Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/wow.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".popup-gallery").magnificPopup({
+          delegate: "a",
+          type: "image",
+          tLoading: "Loading image #%curr%...",
+          mainClass: "mfp-img-mobile",
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1],
+          },
+          image: {
+            tError:
+              '<a href="%url%">The image #%curr%</a> could not be loaded.',
+          },
+        });
+      });
+
+      var swiper = new Swiper(".mainHeroActive", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+          delay: 7000,
+        },
+        pagination: {
+          el: ".main-hero-dot",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return (
+              '<span class="' +
+              className +
+              '">' +
+              "<button>" +
+              "0" +
+              (index + 1) +
+              "</button>" +
+              "</span>"
+            );
+          },
+        },
+      });
+    </script>
+    <script></script>
+  </body>
+</html>
