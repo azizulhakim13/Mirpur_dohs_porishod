@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>About | Mirpur DOHS Porishod — Community, Services & Governance</title>
+    <meta name="description"
+        content="Learn about Mirpur DOHS Porishod — our mission, executive committee, community services (security, sanitation, mosque & religious affairs, sports & culture), and resident support in Mirpur, Dhaka.">
+    <meta name="keywords"
+        content="About Mirpur DOHS, Mirpur DOHS Porishod, Executive Committee, mission, services, security, sanitation, mosque services, sports and culture, Dhaka community">
+    <meta name="author" content="Mirpur DOHS Porishod">
+    <meta name="robots" content="all">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en-US">
+    <meta property="og:site_name" content="mirpurdohsporishod.org">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About — Mirpur DOHS Porishod">
+    <meta property="og:description"
+        content="Overview of Mirpur DOHS Porishod: who we are, what we do, and how we serve residents of Mirpur DOHS.">
+    <meta property="og:url" content="https://mirpurdohsporishod.org/about.html">
+    <meta property="og:image" content="https://mirpurdohsporishod.org/assets/img/logo.png">
+    <meta property="og:image:width" content="240">
+    <meta property="og:image:height" content="90">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About — Mirpur DOHS Porishod">
+    <meta name="twitter:description" content="Mission, leadership, and services of Mirpur DOHS Porishod.">
+    <meta name="twitter:image" content="https://mirpurdohsporishod.org/assets/img/logo.png">
+
+    <!-- PWA / Theming -->
+    <meta name="theme-color" content="#0F3D2E">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Mirpur DOHS Porishod">
+    <meta name="msapplication-TileColor" content="#0F3D2E">
+    <meta name="msapplication-TileImage" content="https://mirpurdohsporishod.org/assets/img/logo.png">
+
+    <link rel="manifest" href="https://mirpurdohsporishod.org/manifest.json">
+    <link rel="apple-touch-icon" href="https://mirpurdohsporishod.org/assets/img/logo.png">
+    <link rel="icon" type="image/png" href="https://mirpurdohsporishod.org/assets/img/logo.png">
+    <link rel="canonical" href="https://mirpurdohsporishod.org/about.html">
+    <link rel="alternate" href="https://mirpurdohsporishod.org/about.html" hreflang="en-US">
+
+
+    <!-- Theme switcher (color modes) -->
+    <script src="assets/js/theme-switcher.js"></script>
+
+
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+
+    <!-- Main Theme Styles + Bootstrap -->
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+
+    <!-- Page loading styles -->
+    <style>
+        .page-loading {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all .4s .2s ease-in-out;
+            transition: all .4s .2s ease-in-out;
+            background-color: #fff;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9999;
+        }
+
+        [data-bs-theme="dark"] .page-loading {
+            background-color: #0b0f19;
+        }
+
+        .page-loading.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .page-loading-inner {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+            opacity: 0;
+        }
+
+        .page-loading.active>.page-loading-inner {
+            opacity: 1;
+        }
+
+        .page-loading-inner>span {
+            display: block;
+            font-size: 1rem;
+            font-weight: normal;
+            color: #9397ad;
+        }
+
+        [data-bs-theme="dark"] .page-loading-inner>span {
+            color: #fff;
+            opacity: .6;
+        }
+
+        .page-spinner {
+            display: inline-block;
+            width: 2.75rem;
+            height: 2.75rem;
+            margin-bottom: .75rem;
+            vertical-align: text-bottom;
+            border: .15em solid #b4b7c9;
+            border-right-color: transparent;
+            border-radius: 50%;
+            -webkit-animation: spinner .75s linear infinite;
+            animation: spinner .75s linear infinite;
+        }
+
+        [data-bs-theme="dark"] .page-spinner {
+            border-color: rgba(255, 255, 255, .4);
+            border-right-color: transparent;
+        }
+
+        @-webkit-keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <!-- Page loading scripts -->
+    <script>
+        (function () {
+            window.onload = function () {
+                const preloader = document.querySelector('.page-loading');
+                preloader.classList.remove('active');
+                setTimeout(function () {
+                    preloader.remove();
+                }, 1000);
+            };
+        })();
+    </script>
+
+</head>
+
+
+<!-- Body -->
+
+<body>
+
+
+    <!-- Page loading spinner -->
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div>
+
+    <main class="page-wrapper">
+        <!-- Navbar -->
+        <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
+            <div class="container px-3">
+                <a href="https://mirpurdohsporishod.org/" class="navbar-brand pe-3">
+                    <img src="assets/img/logo.png" width="64" alt="MIRPUR DOHS PORISHOD">
+                    <span class="primary-color logo-name">MIRPUR DOHS PORISHOD</span>
+                </a>
+
+                <div id="navbarNav" class="offcanvas offcanvas-end">
+                    <div class="offcanvas-header border-bottom">
+                        <h5 class="offcanvas-title primary-color">Mirpur DOHS Porishod</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-xl-5 mb-2 mb-lg-0">
+                            <!-- Home -->
+                            <li class="nav-item"><a href="https://mirpurdohsporishod.org/" class="nav-link">Home</a></li>
+
+                            <!-- About (groups About Us + Executive Committee) -->
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html" class="dropdown-item">Overview</a></li>
+                                    <li><a href="executive-committee.html" class="dropdown-item">Executive Committee</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Services (must be top-level) -->
+                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+
+                            <!-- Resources (Forms & Downloads + Gallery) -->
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="notices-events.html" class="dropdown-item">Notices &amp; Events</a>
+                                    </li>
+                                    <li><a href="gallery.html" class="dropdown-item">Gallery</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Contact -->
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Offcanvas footer CTA (unchanged placement) -->
+                    <div class="offcanvas-header border-top">
+                        <a href="helpline.html" class="btn btn-danger-custom w-100" target="_blank"
+                            rel="noopener">
+                            <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+                            Helpline
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Desktop CTA (unchanged placement) -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="helpline.html" class="btn btn-danger-custom btn-sm fs-sm rounded d-none d-lg-inline-flex"
+                    target="_blank" rel="noopener">
+                    <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+                    &nbsp;Helpline
+                </a>
+
+            </div>
+        </header>
+
+
+        <!-- Hero image -->
+        <div class="jarallax d-none d-md-block" data-jarallax data-speed="0.35">
+            <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary-translucent"></span>
+            <div class="jarallax-img" style="background-image: url(assets/img/Mirpur_DOHS.jpg);"></div>
+            <div class="d-none d-xxl-block" style="height: 550px;"></div>
+            <div class="d-none d-md-block d-xxl-none" style="height: 350px;"></div>
+        </div>
+
+        <section class="bg-secondary">
+
+            <!-- Breadcrumb -->
+            <nav class="container py-4 mb-2 " aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="https://mirpurdohsporishod.org/"><i class="bx bx-home-alt fs-lg me-1"></i>Home</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                </ol>
+            </nav>
+
+
+            <!-- About  -->
+            <div class="container pb-5 mb-md-2 mb-lg-4">
+                <h1 class="border-bottom pb-4">Who We Are</h1>
+                <div class="row pt-2 pt-md-3">
+                    <div class="col-md-6">
+                        <p class="fs-lg pe-lg-4 mb-1 mb-lg-4">
+                            Mirpur DOHS Porishod serves one of Dhaka’s most prestigious residential communities—planned
+                            by
+                            the Armed Forces of Bangladesh for retired defense personnel and grown into a model
+                            neighborhood
+                            of order, discipline, and modern urban living. Within the Mirpur area, our community is
+                            defined
+                            by well-organized infrastructure: wide roads, modern drainage, clean footpaths, and generous
+                            greenery. Continuous security monitoring and clear community guidelines help ensure a
+                            peaceful,
+                            respectful environment for families and businesses.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="fs-lg ps-lg-4 mb-1 mb-lg-4">
+                            Guided by shared values and mutual respect, the Porishod (Welfare Association) collaborates
+                            with
+                            residents to sustain a safe, connected, and thriving neighborhood. We oversee core
+                            services—Security, Maintenance &amp; Beautification, Mosque &amp; Religious Affairs, Health,
+                            Hygiene &amp; Sanitation, Sports &amp; Culture, and Administration &amp; Membership—with
+                            transparent subscriptions and accountable stewardship. Our focus is simple: dependable
+                            services,
+                            clear communication, and a high standard of community life today and for future generations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container pt-4 pb-100">
+            <div class="mt-4 py-2 pb-sm-3 pb-md-4 pb-lg-5 mx-auto text-center" style="max-width: 46.625rem;">
+                <h2 class="h1 mb-4">Our Journey as a Community</h2>
+                <p class="mb-4">
+                    From a planned residential enclave to a model neighborhood, Mirpur DOHS Porishod has grown through
+                    disciplined
+                    management, resident collaboration, and continuous service improvement.
+                </p>
+            </div>
+
+            <!-- Steps -->
+            <div class="steps steps-center steps-sm steps-horizontal-lg"
+                style="--si-steps-number-size-sm: 1.5rem; --si-steps-number-inner-size-sm: 1rem; --si-steps-number-bg: rgba(13,110,253,.15); --si-steps-number-inner-bg: var(--si-primary);">
+
+                <!-- Step -->
+                <div class="step w-100 mx-auto" style="max-width: 26rem;">
+                    <div class="step-number">
+                        <div class="step-number-inner"></div>
+                    </div>
+                    <div class="step-body">
+                        <h3 class="mb-3">Founding &amp; Planning</h3>
+                        <p class="mb-0">Established as a planned residential community with clear rules, orderly plots,
+                            and a welfare association framework.</p>
+                    </div>
+                </div>
+
+                <!-- Step -->
+                <div class="step w-100 mx-auto" style="max-width: 26rem;">
+                    <div class="step-number">
+                        <div class="step-number-inner"></div>
+                    </div>
+                    <div class="step-body">
+                        <h3 class="mb-3">Infrastructure &amp; Security</h3>
+                        <p class="mb-0">Development of wide roads, modern drainage, lighting, and access control
+                            supported by a dedicated control room.</p>
+                    </div>
+                </div>
+
+                <!-- Step -->
+                <div class="step w-100 mx-auto" style="max-width: 26rem;">
+                    <div class="step-number">
+                        <div class="step-number-inner"></div>
+                    </div>
+                    <div class="step-body">
+                        <h3 class="mb-3">Resident Services</h3>
+                        <p class="mb-0">Structured subscriptions fund core services: Security, Maintenance &amp;
+                            Beautification, Mosque &amp; Religious Affairs, Health &amp; Sanitation, Sports &amp;
+                            Culture, and Administration.</p>
+                    </div>
+                </div>
+
+                <!-- Step -->
+                <div class="step w-100 mx-auto" style="max-width: 26rem;">
+                    <div class="step-number">
+                        <div class="step-number-inner"></div>
+                    </div>
+                    <div class="step-body">
+                        <h3 class="mb-3">Digital &amp; Transparency</h3>
+                        <p class="mb-0">Clear notices, helpline directory, and downloadable forms keep residents
+                            informed and make services easy to access.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer blue-bg pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
+        <div class="container pt-lg-4">
+            <div class="row pb-5">
+                <div class="col-lg-4 col-md-6">
+                             <a class="navbar-brand p-0 me-0 mb-3 mb-lg-4" href="https://mirpurdohsporishod.org/">
+            <img src="assets/img/logo.png" width="64" alt="Mirpur DOHS Porishod">
+            <span class="text-white">MIRPUR DOHS PORISHOD</span>
+          </a>
+                    <p class="text-light pb-lg-3 mb-4">
+                        Mirpur DOHS is one of Dhaka’s most prestigious and secure residential communities,
+                        developed by the Armed Forces of Bangladesh. We uphold discipline, safety and
+                        modern urban living through well-planned infrastructure and community standards.
+                    </p>
+                    <h6 class="mb-2">Contact Us</h6>
+                    <ul class="nav flex-column mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="tel:+880244806644" class="nav-link d-inline-block px-0 pt-1 pb-2">
+                                <i class="bx bx-phone fs-5 me-2 align-middle" aria-hidden="true"></i>
+                                02-44806644
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mailto:mirpurdohsporshod@gmail.com" class="nav-link d-inline-block px-0 pt-1 pb-2">
+                                <i class="bx bx-envelope fs-5 me-2 align-middle" aria-hidden="true"></i>
+                                mirpurdohsporshod@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-md-5 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+                    <div id="footer-links" class="row">
+
+                        <!-- Useful Links -->
+                        <div class="col-lg-4">
+                            <h6 class="mb-2">
+                                <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                                    data-bs-toggle="collapse">Useful Links</a>
+                            </h6>
+                            <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                                <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                                    <li class="nav-item"><a href="https://mirpurdohsporishod.org/"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
+                                    <li class="nav-item"><a href="about.html"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">About Us</a>
+                                    </li>
+                                    <li class="nav-item"><a href="executive-committee.html"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Executive Committee</a></li>
+                                    <li class="nav-item"><a href="services.html"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
+                                    <li class="nav-item"><a href="notices-events.html"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Notices &amp; Events</a></li>
+
+                                    <li class="nav-item"><a href="gallery.html"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Gallery</a>
+                                    </li>
+                                    <li class="nav-item"><a href="contact.html"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Contact</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <!-- Socials -->
+                        <div class="col-xl-4 col-lg-3">
+                            <h6 class="mb-2">
+                                <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                                    data-bs-toggle="collapse">Socials</a>
+                            </h6>
+                            <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                                <ul class="nav flex-column mb-2 mb-lg-0">
+                                    <li class="nav-item"><a href="#"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
+                                    <li class="nav-item"><a href="#"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">X
+                                            (Twitter)</a></li>
+                                    <li class="nav-item"><a href="#"
+                                            class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                            <h6 class="mb-2">Address</h6>
+                            <ul class="nav flex-column mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <span class="text-light d-inline-block px-0 pt-1 pb-2">
+                                        <i class="bx bx-map fs-5 me-2 align-middle" aria-hidden="true"></i>
+                                        Porishod Building, Road 06, Mirpur DOHS, Dhaka 1216, Bangladesh
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav d-flex flex-wrap gap-3 justify-content-between">
+                <p class="text-light mb-0">&copy; copyright Mirpur DOHS Porishod. All rights reserved.</p>
+                <p class="text-light mb-0">Design & Development By: <a href="https://www.iccteleservices.com/"
+                        class="text-white fw-semibold text-decoration-none" target="_blank">ICC Teleservices Ltd</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+        <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+        <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+
+    <!-- Vendor Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="assets/js/theme.min.js"></script>
+</body>
+
+</html>

@@ -11,6 +11,10 @@
   color: var(--blue1);
 }
 
+.red-color {
+  color: var(--red-theme);
+}
+
 .blue-bg {
   background-color: var(--blue1);
 }
@@ -71,6 +75,12 @@
   flex-shrink:0;
 }
 
+.footer {
+  p {
+    text-align: justify;
+  }
+}
+
 
 // video-section
 .video-section {
@@ -105,7 +115,13 @@
 
 @media (max-width: 768px) {
   .logo-name {
-    font-size: 16px;
+    font-size: 14px !important;
+  }
+
+  .navbar-brand {
+    span {
+      font-size: 16px;
+    }
   }
 
     .pb-80 {

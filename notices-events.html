@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gallery | Mirpur DOHS Porishod — Community Photo Archive</title>
+    <title>Notices | Mirpur DOHS Porishod — Community Updates & Announcements</title>
     <meta name="description"
-        content="Explore the Mirpur DOHS Porishod gallery: Football tournaments, Pohela Boishakh, Islamic programs, Marathon, and Tree Plantation activities from our community.">
+        content="Official notices from Mirpur DOHS Porishod: security advisories, utilities updates, mosque arrangements, community programs, AGM schedules, and resident announcements.">
     <meta name="keywords"
-        content="Mirpur DOHS gallery, community photos, Football, Pohela Boishakh, Islamic events, Marathon, Tree Plantation, Mirpur DOHS Porishod">
+        content="Mirpur DOHS notices, announcements, community updates, AGM, security, utilities, WASA, DESCO, mosque, events, downloads">
     <meta name="author" content="Mirpur DOHS Porishod">
     <meta name="robots" content="all">
 
@@ -18,18 +18,17 @@
     <meta property="og:locale" content="en-US">
     <meta property="og:site_name" content="mirpurdohsporishod.org">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Gallery — Mirpur DOHS Porishod">
-    <meta property="og:description" content="See highlights from community life at Mirpur DOHS.">
-    <meta property="og:url" content="https://mirpurdohsporishod.org/gallery.html">
+    <meta property="og:title" content="Notices — Mirpur DOHS Porishod">
+    <meta property="og:description" content="Browse official notices and announcements for the Mirpur DOHS community.">
+    <meta property="og:url" content="https://mirpurdohsporishod.org/notices.html">
     <meta property="og:image" content="https://mirpurdohsporishod.org/assets/img/logo.png">
     <meta property="og:image:width" content="240">
     <meta property="og:image:height" content="90">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Gallery — Mirpur DOHS Porishod">
-    <meta name="twitter:description"
-        content="Moments from our community: sports, culture, faith, and green initiatives.">
+    <meta name="twitter:title" content="Notices — Mirpur DOHS Porishod">
+    <meta name="twitter:description" content="Latest official updates and announcements for residents.">
     <meta name="twitter:image" content="https://mirpurdohsporishod.org/assets/img/logo.png">
 
     <!-- PWA / Theming -->
@@ -45,8 +44,8 @@
     <link rel="apple-touch-icon" href="https://mirpurdohsporishod.org/assets/img/logo.png">
     <link rel="icon" type="image/png" href="https://mirpurdohsporishod.org/assets/img/logo.png">
 
-    <link rel="canonical" href="https://mirpurdohsporishod.org/gallery.html">
-    <link rel="alternate" href="https://mirpurdohsporishod.org/gallery.html" hreflang="en-US">
+    <link rel="canonical" href="https://mirpurdohsporishod.org/notices.html">
+    <link rel="alternate" href="https://mirpurdohsporishod.org/notices.html" hreflang="en-US">
 
 
     <!-- Theme switcher (color modes) -->
@@ -60,7 +59,7 @@
     <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
 
 
     <!-- Page loading styles -->
@@ -164,204 +163,6 @@
             };
         })();
     </script>
-    <style>
-        /* blur the real page underneath when open */
-        #pageWrap {
-            transition: filter .3s ease;
-        }
-
-        #pageWrap.blurred {
-            filter: blur(6px);
-        }
-
-        /* grid + cards */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 16px;
-        }
-
-        section.wrap .card {
-            background: #f9fafb;
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
-            overflow: hidden;
-            cursor: pointer;
-            transition: transform .15s ease, box-shadow .15s ease;
-        }
-
-        section.wrap .card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, .08);
-        }
-
-        .card-img {
-            aspect-ratio: 16/10;
-            width: 100%;
-            object-fit: cover;
-            display: block;
-        }
-
-        .card-body {
-            padding: 12px 14px 14px;
-        }
-
-        .title {
-            font-size: 16px;
-            font-weight: 650;
-            margin: 0;
-        }
-
-        .count {
-            font-size: 13px;
-            color: #6b7280;
-            margin-top: 4px;
-        }
-
-        /* LIGHTBOX */
-        .lightbox {
-            position: fixed;
-            inset: 0;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 1060;
-            background: rgba(255, 255, 255, .6);
-            padding: 12px;
-            /* edge padding on small screens */
-        }
-
-        .lightbox.open {
-            display: flex;
-        }
-
-        .lightbox-inner {
-            width: 100%;
-            max-width: 1100px;
-        }
-
-        .frame {
-            width: 100%;
-            background: #fff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, .15);
-        }
-
-        /* IMPORTANT: responsive image – no fixed height */
-        .frame img {
-            display: block;
-            width: 100%;
-            height: auto;
-            /* let the aspect ratio drive height */
-            max-height: 70vh;
-            /* keep it within the viewport */
-            background: #fff;
-        }
-
-        .controls {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px;
-            gap: 8px;
-            background: #f3f4f6;
-        }
-
-        /* caption stays on one line with ellipsis */
-        #caption {
-            flex: 1;
-            min-width: 0;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-
-        .thumbs {
-            overflow-x: auto;
-            display: flex;
-            gap: 8px;
-            padding: 10px;
-            background: #f9fafb;
-        }
-
-        .thumbs img {
-            height: 70px;
-            border-radius: 6px;
-            border: 2px solid transparent;
-            cursor: pointer;
-        }
-
-        .thumbs img.active {
-            border-color: #111827;
-        }
-
-        .x {
-            position: absolute;
-            top: 8px;
-            right: 8px;
-            background: #ef4444;
-            color: #fff;
-            border: none;
-            padding: 6px 10px;
-            border-radius: 50%;
-            cursor: pointer;
-            font-weight: bold;
-            line-height: 1;
-        }
-
-        /* Mobile tweaks */
-        @media (max-width: 576px) {
-            .controls {
-                padding: 8px;
-                gap: 6px;
-            }
-
-            .btn {
-                padding: 8px 10px;
-            }
-
-            .thumbs img {
-                height: 56px;
-            }
-
-            .frame img {
-                max-height: 60vh;
-            }
-
-            /* a bit shorter on very small screens */
-        }
-    </style>
-    <style>
-        /* ensure overlay is above everything (navbar, helpline, etc.) */
-        .lightbox {
-            z-index: 9999 !important;
-        }
-
-        /* anchor the close button to the modal frame, not the viewport */
-        .lightbox .frame {
-            position: relative !important;
-        }
-
-        .lightbox .x {
-            position: absolute !important;
-            top: 10px !important;
-            right: 10px !important;
-            transform: none !important;
-            margin: 0 !important;
-            z-index: 2;
-        }
-
-        /* optional: tighter gap on very small screens */
-        @media (max-width: 576px) {
-            .lightbox .x {
-                top: 6px !important;
-                right: 6px !important;
-            }
-        }
-    </style>
-
 
 </head>
 
@@ -396,16 +197,14 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav ms-xl-5 mb-2 mb-lg-0">
                             <!-- Home -->
-                            <li class="nav-item"><a href="https://mirpurdohsporishod.org/" class="nav-link">Home</a>
-                            </li>
+                            <li class="nav-item"><a href="https://mirpurdohsporishod.org/" class="nav-link">Home</a></li>
 
                             <!-- About (groups About Us + Executive Committee) -->
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="about.html" class="dropdown-item">Overview</a></li>
-                                    <li><a href="executive-committee.html" class="dropdown-item">Executive Committee</a>
-                                    </li>
+                                    <li><a href="executive-committee.html" class="dropdown-item">Executive Committee</a></li>
                                 </ul>
                             </li>
 
@@ -429,7 +228,8 @@
 
                     <!-- Offcanvas footer CTA (unchanged placement) -->
                     <div class="offcanvas-header border-top">
-                        <a href="helpline.html" class="btn btn-danger-custom w-100" target="_blank" rel="noopener">
+                        <a href="helpline.html" class="btn btn-danger-custom w-100" target="_blank"
+                            rel="noopener">
                             <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
                             Helpline
                         </a>
@@ -452,8 +252,6 @@
 
         <!-- Hero -->
         <section class="bg-dark" data-bs-theme="dark">
-
-            <!-- Content -->
             <div class="container position-relative zindex-2 pt-5 pb-4">
 
                 <!-- Breadcrumb -->
@@ -462,125 +260,183 @@
                         <li class="breadcrumb-item">
                             <a href="https://mirpurdohsporishod.org/"><i class="bx bx-home-alt fs-lg me-1"></i>Home</a>
                         </li>
-                        <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                        <li class="breadcrumb-item active" aria-current="page">Notices</li>
                     </ol>
                 </nav>
 
                 <div class="row justify-content-center pt-3 mt-3">
                     <div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 text-center">
-                        <h1 class="mb-4">Life at Mirpur DOHS</h1>
-                        <p class="text-body fs-lg pb-3 mb-3">
-                            Explore moments from our community — Football, Pohela Boishakh, Islamic programs, Marathon,
-                            and Tree Plantation initiatives.
+                        <h1 class="mb-3">Notices &amp; Events</h1>
+                        <p class="text-body fs-lg mb-4">
+                            Official announcements and service updates for Mirpur DOHS—security, utilities, community
+                            programs, and more. Download attachments directly from each notice.
                         </p>
                     </div>
                 </div>
+
             </div>
         </section>
 
 
+        <!-- Notices -->
+        <section class="container py-100">
+            <h2 class="h1 text-center pb-3">Notices</h2>
 
-        <section class="wrap py-80" id="pageWrap">
-            <div class="container">
-                <div class="text-center pb-5">
-                    <h1 class="display-4 fw-bold text-center">Moments from Our Community</h1>
-                </div>
+            <div class="row g-4">
 
-                <div class="grid">
-                    <!-- Pohela Boishakh -->
-                    <article class="card" data-title="Pohela Boishakh Celebration" data-images='[
-        "assets/img/boishakhi/01.jpg",
-        "assets/img/boishakhi/02.jpg",
-        "assets/img/boishakhi/03.jpg",
-        "assets/img/boishakhi/04.jpg"
-      ]'>
-                        <img class="card-img" src="assets/img/boishakhi/01.jpg" alt="Pohela Boishakh Celebration" />
-                        <div class="card-body">
-                            <h3 class="title">Pohela Boishakh Celebration</h3>
-                            <div class="count">4 photos</div>
+                <!-- Notice 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card h-100 p-md-3 p-2 border-0 shadow-sm card-hover-primary">
+                        <div class="card-body pb-0">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span class="badge fs-sm text-nav bg-secondary">Security</span>
+                                <span class="fs-sm text-muted">Aug 10, 2025</span>
+                            </div>
+                            <h3 class="h4">Gate Entry &amp; Visitor Pass Update</h3>
+                            <p class="mb-0">Residents are requested to carry valid ID. Visitor passes will be issued
+                                from the Control Room during posted hours.</p>
                         </div>
-                    </article>
-
-                    <!-- Annual General Meeting -->
-                    <article class="card" data-title="Annual General Meeting" data-images='[
-        "assets/img/agm/01.jpg","assets/img/agm/02.jpg","assets/img/agm/03.jpg","assets/img/agm/04.jpg",
-        "assets/img/agm/05.jpg","assets/img/agm/06.jpg","assets/img/agm/07.jpg","assets/img/agm/08.jpg",
-        "assets/img/agm/09.jpg","assets/img/agm/10.jpg","assets/img/agm/11.jpg","assets/img/agm/12.jpg",
-        "assets/img/agm/13.jpg","assets/img/agm/14.jpg","assets/img/agm/15.jpg","assets/img/agm/16.jpg"
-      ]'>
-                        <img class="card-img" src="assets/img/agm/01.jpg" alt="Annual General Meeting" />
-                        <div class="card-body">
-                            <h3 class="title">Annual General Meeting</h3>
-                            <div class="count">16 photos</div>
-                        </div>
-                    </article>
-
-                    <!-- Football Tournament -->
-                    <article class="card" data-title="Football Tournament" data-images='[
-        "assets/img/footbal/01.jpg","assets/img/footbal/02.jpg",
-        "assets/img/footbal/03.jpg","assets/img/footbal/04.jpg"
-      ]'>
-                        <img class="card-img" src="assets/img/footbal/01.jpg" alt="Football Tournament" />
-                        <div class="card-body">
-                            <h3 class="title">Football Tournament</h3>
-                            <div class="count">4 photos</div>
-                        </div>
-                    </article>
-
-                    <!-- Islamic Program -->
-                    <article class="card" data-title="Islamic Program & Community Event" data-images='[
-        "assets/img/islamic/01.jpeg","assets/img/islamic/03.jpeg","assets/img/islamic/04.jpg"
-      ]'>
-                        <img class="card-img" src="assets/img/islamic/01.jpeg"
-                            alt="Islamic Program & Community Event" />
-                        <div class="card-body">
-                            <h3 class="title">Islamic Program & Community Event</h3>
-                            <div class="count">3 photos</div>
-                        </div>
-                    </article>
-
-                    <!-- Community Marathon -->
-                    <article class="card" data-title="Community Marathon" data-images='[
-        "assets/img/marathon/01.jpg","assets/img/marathon/02.jpg","assets/img/marathon/03.jpg",
-        "assets/img/marathon/04.jpg","assets/img/marathon/05.jpg","assets/img/marathon/06.jpg",
-        "assets/img/marathon/07.jpg"
-      ]'>
-                        <img class="card-img" src="assets/img/marathon/01.jpg" alt="Community Marathon" />
-                        <div class="card-body">
-                            <h3 class="title">Community Marathon</h3>
-                            <div class="count">7 photos</div>
-                        </div>
-                    </article>
-
-                    <!-- Tree Plantation Drive -->
-                    <article class="card" data-title="Tree Plantation Drive" data-images='[
-        "assets/img/treeplantation/01.jpg","assets/img/treeplantation/02.jpg","assets/img/treeplantation/03.jpg"
-      ]'>
-                        <img class="card-img" src="assets/img/treeplantation/01.jpg" alt="Tree Plantation Drive" />
-                        <div class="card-body">
-                            <h3 class="title">Tree Plantation Drive</h3>
-                            <div class="count">3 photos</div>
+                        <div
+                            class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                            <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Gate%20Entry%20%26%20Visitor%20Pass%20Update%0ADate%3A%20Aug%2010%2C%202025%0ADetails%3A%20Carry%20valid%20ID.%20Visitor%20passes%20from%20Control%20Room%20during%20posted%20hours."
+                                download="Notice-Gate-Entry.txt" class="text-decoration-none text-primary"
+                                title="Download notice" aria-label="Download notice">
+                                <i class="bx bx-download fs-4"></i>
+                            </a>
                         </div>
                     </article>
                 </div>
+
+                <!-- Notice 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card h-100 p-md-3 p-2 border-0 shadow-sm card-hover-primary">
+                        <div class="card-body pb-0">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span class="badge fs-sm text-nav bg-secondary">Utilities</span>
+                                <span class="fs-sm text-muted">Aug 08, 2025</span>
+                            </div>
+                            <h3 class="h4">WASA Maintenance — Temporary Water Disruption</h3>
+                            <p class="mb-0">Scheduled maintenance may affect supply on select roads. Please store water
+                                in advance.</p>
+                        </div>
+                        <div
+                            class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                            <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20WASA%20Maintenance%20%E2%80%94%20Temporary%20Water%20Disruption%0ADate%3A%20Aug%2008%2C%202025%0ADetails%3A%20Maintenance%20may%20affect%20supply%20on%20select%20roads.%20Store%20water%20in%20advance."
+                                download="Notice-WASA-Maintenance.txt" class="text-decoration-none text-primary"
+                                title="Download notice" aria-label="Download notice">
+                                <i class="bx bx-download fs-4"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Notice 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card h-100 p-md-3 p-2 border-0 shadow-sm card-hover-primary">
+                        <div class="card-body pb-0">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span class="badge fs-sm text-nav bg-secondary">Community</span>
+                                <span class="fs-sm text-muted">Aug 05, 2025</span>
+                            </div>
+                            <h3 class="h4">Clean-Up Drive — Volunteer Sign-up</h3>
+                            <p class="mb-0">Join residents in a neighborhood clean-up. Gloves and bags will be provided.
+                            </p>
+                        </div>
+                        <div
+                            class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                            <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Clean-Up%20Drive%20%E2%80%94%20Volunteer%20Sign-up%0ADate%3A%20Aug%2005%2C%202025%0ADetails%3A%20Join%20residents%20in%20a%20neighborhood%20clean-up.%20Gloves%20and%20bags%20will%20be%20provided."
+                                download="Notice-Cleanup-Drive.txt" class="text-decoration-none text-primary"
+                                title="Download notice" aria-label="Download notice">
+                                <i class="bx bx-download fs-4"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Notice 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card h-100 p-md-3 p-2 border-0 shadow-sm card-hover-primary">
+                        <div class="card-body pb-0">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span class="badge fs-sm text-nav bg-secondary">Religious</span>
+                                <span class="fs-sm text-muted">Aug 03, 2025</span>
+                            </div>
+                            <h3 class="h4">Mosque Arrangements — Friday Congregation</h3>
+                            <p class="mb-0">Please arrive early and follow volunteers’ guidance for orderly entry and
+                                parking.</p>
+                        </div>
+                        <div
+                            class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                            <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Mosque%20Arrangements%20%E2%80%94%20Friday%20Congregation%0ADate%3A%20Aug%2003%2C%202025%0ADetails%3A%20Please%20arrive%20early%20and%20follow%20volunteers%E2%80%99%20guidance%20for%20orderly%20entry%20and%20parking."
+                                download="Notice-Mosque-Arrangements.txt" class="text-decoration-none text-primary"
+                                title="Download notice" aria-label="Download notice">
+                                <i class="bx bx-download fs-4"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Notice 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card h-100 p-md-3 p-2 border-0 shadow-sm card-hover-primary">
+                        <div class="card-body pb-0">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span class="badge fs-sm text-nav bg-secondary">Administration</span>
+                                <span class="fs-sm text-muted">Aug 01, 2025</span>
+                            </div>
+                            <h3 class="h4">Annual General Meeting (AGM) — Schedule &amp; Agenda</h3>
+                            <p class="mb-0">Members are requested to review the agenda and attend as per the announced
+                                schedule.</p>
+                        </div>
+                        <div
+                            class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                            <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Annual%20General%20Meeting%20(AGM)%20%E2%80%94%20Schedule%20%26%20Agenda%0ADate%3A%20Aug%2001%2C%202025%0ADetails%3A%20Members%20are%20requested%20to%20review%20the%20agenda%20and%20attend%20as%20per%20the%20announced%20schedule."
+                                download="Notice-AGM-Agenda.txt" class="text-decoration-none text-primary"
+                                title="Download notice" aria-label="Download notice">
+                                <i class="bx bx-download fs-4"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Notice 6 (extra example) -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card h-100 p-md-3 p-2 border-0 shadow-sm card-hover-primary">
+                        <div class="card-body pb-0">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <span class="badge fs-sm text-nav bg-secondary">Maintenance</span>
+                                <span class="fs-sm text-muted">Jul 29, 2025</span>
+                            </div>
+                            <h3 class="h4">Road Repair — Temporary Traffic Diversion</h3>
+                            <p class="mb-0">Road work on select lanes. Follow signage and security directions during the
+                                repair window.</p>
+                        </div>
+                        <div
+                            class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                            <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Road%20Repair%20%E2%80%94%20Temporary%20Traffic%20Diversion%0ADate%3A%20Jul%2029%2C%202025%0ADetails%3A%20Road%20work%20on%20select%20lanes.%20Follow%20signage%20and%20security%20directions."
+                                download="Notice-Road-Repair.txt" class="text-decoration-none text-primary"
+                                title="Download notice" aria-label="Download notice">
+                                <i class="bx bx-download fs-4"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
             </div>
+
+            <!-- Static pagination -->
+            <nav class="mt-5" aria-label="Notices pagination">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled"><span class="page-link">Previous</span></li>
+                    <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
         </section>
 
-        <!-- Lightbox -->
-        <div class="lightbox" id="lightbox" aria-hidden="true">
-            <div class="lightbox-inner">
-                <div class="frame">
-                    <img id="lbImage" src="" alt="">
-                    <button class="x" id="closeBtn" aria-label="Close">✕</button>
-                    <div class="controls">
-                        <button class="btn btn-danger-custom" id="prevBtn" aria-label="Previous">← Prev</button>
-                        <span id="caption" class="muted" style="flex:1;text-align:center"></span>
-                        <button class="btn btn-danger-custom" id="nextBtn" aria-label="Next">Next →</button>
-                    </div>
-                </div>
-                <div class="thumbs" id="thumbs" aria-label="Thumbnails"></div>
-            </div>
-        </div>
+
     </main>
 
     <!-- Footer -->
@@ -588,10 +444,10 @@
         <div class="container pt-lg-4">
             <div class="row pb-5">
                 <div class="col-lg-4 col-md-6">
-                    <a class="navbar-brand p-0 me-0 mb-3 mb-lg-4" href="https://mirpurdohsporishod.org/">
-                        <img src="assets/img/logo.png" width="64" alt="Mirpur DOHS Porishod">
-                        <span class="text-white">MIRPUR DOHS PORISHOD</span>
-                    </a>
+         <a class="navbar-brand p-0 me-0 mb-3 mb-lg-4" href="https://mirpurdohsporishod.org/">
+            <img src="assets/img/logo.png" width="64" alt="Mirpur DOHS Porishod">
+            <span class="text-white">MIRPUR DOHS PORISHOD</span>
+          </a>
                     <p class="text-light pb-lg-3 mb-4">
                         Mirpur DOHS is one of Dhaka’s most prestigious and secure residential communities,
                         developed by the Armed Forces of Bangladesh. We uphold discipline, safety and
@@ -688,8 +544,7 @@
             <div class="nav d-flex flex-wrap gap-3 justify-content-between">
                 <p class="text-light mb-0">&copy; copyright Mirpur DOHS Porishod. All rights reserved.</p>
                 <p class="text-light mb-0">Design & Development By: <a href="https://www.iccteleservices.com/"
-                        class="text-white fw-semibold text-decoration-none" target="_blank">ICC Teleservices Ltd</a>.
-                </p>
+                        class="text-white fw-semibold text-decoration-none" target="_blank">ICC Teleservices Ltd</a>.</p>
             </div>
         </div>
     </footer>
@@ -705,85 +560,11 @@
     <!-- Vendor Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
     <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main Theme Script -->
     <script src="assets/js/theme.min.js"></script>
-    <script>
-        (() => {
-            const qs = s => document.querySelector(s);
-            const qsa = s => [...document.querySelectorAll(s)];
-            const lightbox = qs('#lightbox');
-            const lbImg = qs('#lbImage');
-            const caption = qs('#caption');
-            const thumbs = qs('#thumbs');
-            const prevBtn = qs('#prevBtn');
-            const nextBtn = qs('#nextBtn');
-            const closeBtn = qs('#closeBtn');
-            const pageWrap = qs('#pageWrap');
 
-            let images = [], idx = 0, albumTitle = '';
-
-            function open(imagesList, title, startIndex = 0) {
-                images = imagesList; albumTitle = title; idx = startIndex;
-                render();
-                pageWrap.classList.add('blurred'); // blur the real page underneath
-                lightbox.classList.add('open');
-                lightbox.setAttribute('aria-hidden', 'false');
-            }
-            function close() {
-                lightbox.classList.remove('open');
-                lightbox.setAttribute('aria-hidden', 'true');
-                thumbs.innerHTML = '';
-                lbImg.src = '';
-                pageWrap.classList.remove('blurred'); // remove blur
-            }
-            function render() {
-                lbImg.src = images[idx];
-                caption.textContent = `${albumTitle} — ${idx + 1} / ${images.length}`;
-                thumbs.innerHTML = images.map((src, i) =>
-                    `<img src="${src}" alt="thumbnail ${i + 1}" data-i="${i}" class="${i === idx ? 'active' : ''}">`
-                ).join('');
-            }
-            function next(n = 1) { idx = (idx + n + images.length) % images.length; render(); }
-            function prev() { next(-1); }
-
-            // card interactions
-            qsa('.card').forEach(card => {
-                card.addEventListener('click', () => {
-                    const imgs = JSON.parse(card.dataset.images);
-                    const title = card.dataset.title || 'Program';
-                    open(imgs, title, 0);
-                });
-                // optional keyboard open
-                card.tabIndex = 0;
-                card.addEventListener('keydown', e => {
-                    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); }
-                });
-            });
-
-            // controls
-            nextBtn.addEventListener('click', () => next());
-            prevBtn.addEventListener('click', () => prev());
-            closeBtn.addEventListener('click', close);
-            thumbs.addEventListener('click', e => {
-                const t = e.target.closest('img'); if (!t) return;
-                idx = Number(t.dataset.i) || 0; render();
-            });
-
-            // keyboard in lightbox
-            window.addEventListener('keydown', e => {
-                if (!lightbox.classList.contains('open')) return;
-                if (e.key === 'Escape') close();
-                if (e.key === 'ArrowRight') next();
-                if (e.key === 'ArrowLeft') prev();
-            });
-
-            // click overlay to close (but not inside the modal frame)
-            lightbox.addEventListener('click', e => {
-                if (e.target === lightbox) close();
-            });
-        })();
-    </script>
 </body>
 
 </html>
