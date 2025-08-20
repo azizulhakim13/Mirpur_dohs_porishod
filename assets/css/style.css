@@ -116,6 +116,10 @@
   border-radius: 50%;
 }
 
+.card-hover-primary:hover .card-body a {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
 /* HEADER CSS */
 /*----------------------------------------*/
 /*  3.1.1 banner Style 1 CSS

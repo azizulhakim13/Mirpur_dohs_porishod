@@ -361,8 +361,6 @@
             }
         }
     </style>
-
-
 </head>
 
 
@@ -380,74 +378,84 @@
 
     <main class="page-wrapper">
         <!-- Navbar -->
-        <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
-            <div class="container px-3">
-                <a href="https://mirpurdohsporishod.org/" class="navbar-brand pe-3">
-                    <img src="assets/img/logo.png" width="64" alt="MIRPUR DOHS PORISHOD">
-                    <span class="primary-color logo-name">MIRPUR DOHS PORISHOD</span>
+        <header class="header navbar navbar-expand-xl bg-light navbar-sticky">
+        <div class="container px-3">
+            <a href="https://mirpurdohsporishod.org/" class="navbar-brand pe-3">
+            <img src="assets/img/logo.png" width="64" alt="MIRPUR DOHS PORISHOD">
+            <span class="primary-color logo-name">MIRPUR DOHS PORISHOD</span>
+            </a>
+
+            <div id="navbarNav" class="offcanvas offcanvas-end">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="offcanvas-title primary-color">Mirpur DOHS Porishod</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="navbar-nav ms-xl-5 mb-2 mb-lg-0">
+                <!-- Home -->
+                <li class="nav-item"><a href="https://mirpurdohsporishod.org/" class="nav-link">Home</a></li>
+
+                <!-- About (groups About Us + Executive Committee) -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <ul class="dropdown-menu">
+                    <li><a href="about.html" class="dropdown-item">Overview</a></li>
+                    <li><a href="executive-committee.html" class="dropdown-item">Executive Committee</a></li>
+                    </ul>
+                </li>
+
+                <!-- Services (must be top-level) -->
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+
+                <!-- Resources (Forms & Downloads + Gallery) -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                    <ul class="dropdown-menu">
+                    <li><a href="notices-events.html" class="dropdown-item">Notices &amp; Events</a></li>
+                    <li><a href="gallery.html" class="dropdown-item">Gallery</a></li>
+                    </ul>
+                </li>
+
+                <!-- Contact -->
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Offcanvas footer CTA (unchanged placement) -->
+            <div class="offcanvas-header border-top">
+                <a href="login.html" class="btn btn-outline-primary w-100 me-2">
+                <i class="bx bx-user fs-5 lh-1 me-1"></i>
+                &nbsp;Log in
+            </a>
+                <a href="helpline.html" class="btn btn-danger-custom w-100" target="_blank" rel="noopener">
+                <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+                Helpline
                 </a>
+            </div>
+            </div>
 
-                <div id="navbarNav" class="offcanvas offcanvas-end">
-                    <div class="offcanvas-header border-bottom">
-                        <h5 class="offcanvas-title primary-color">Mirpur DOHS Porishod</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav ms-xl-5 mb-2 mb-lg-0">
-                            <!-- Home -->
-                            <li class="nav-item"><a href="https://mirpurdohsporishod.org/" class="nav-link">Home</a>
-                            </li>
-
-                            <!-- About (groups About Us + Executive Committee) -->
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="about.html" class="dropdown-item">Overview</a></li>
-                                    <li><a href="executive-committee.html" class="dropdown-item">Executive Committee</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <!-- Services (must be top-level) -->
-                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-
-                            <!-- Resources (Forms & Downloads + Gallery) -->
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="notices-events.html" class="dropdown-item">Notices &amp; Events</a>
-                                    </li>
-                                    <li><a href="gallery.html" class="dropdown-item">Gallery</a></li>
-                                </ul>
-                            </li>
-
-                            <!-- Contact -->
-                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Offcanvas footer CTA (unchanged placement) -->
-                    <div class="offcanvas-header border-top">
-                        <a href="helpline.html" class="btn btn-danger-custom w-100" target="_blank" rel="noopener">
-                            <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
-                            Helpline
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Desktop CTA (unchanged placement) -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a href="helpline.html" class="btn btn-danger-custom btn-sm fs-sm rounded d-none d-lg-inline-flex"
-                    target="_blank" rel="noopener">
-                    <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
-                    &nbsp;Helpline
-                </a>
+            <!-- Desktop CTA (unchanged placement) -->
+            <div class="d-flex ms-auto">
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="d-flex gap-2">
+            <a href="login.html" class="btn btn-outline-primary btn-sm fs-sm rounded d-none d-xl-inline-flex"
+                rel="noopener">
+                <i class="bx bx-user fs-5 lh-1 me-1"></i>
+                &nbsp;Log in
+            </a>
+            <a href="helpline.html" class="btn btn-danger-custom btn-sm fs-sm rounded d-none d-xl-inline-flex"
+                target="_blank" rel="noopener">
+                <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+                &nbsp;Helpline
+            </a>
 
             </div>
+        </div>
         </header>
 
         <!-- Hero -->

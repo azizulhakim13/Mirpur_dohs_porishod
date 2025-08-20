@@ -179,7 +179,7 @@
 
   <main class="page-wrapper">
     <!-- Navbar -->
-    <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
+    <header class="header navbar navbar-expand-xl bg-light navbar-sticky">
       <div class="container px-3">
         <a href="https://mirpurdohsporishod.org/" class="navbar-brand pe-3">
           <img src="assets/img/logo.png" width="64" alt="MIRPUR DOHS PORISHOD">
@@ -225,6 +225,10 @@
 
           <!-- Offcanvas footer CTA (unchanged placement) -->
           <div class="offcanvas-header border-top">
+            <a href="login.html" class="btn btn-outline-primary w-100 me-2">
+              <i class="bx bx-user fs-5 lh-1 me-1"></i>
+              &nbsp;Log in
+            </a>
             <a href="helpline.html" class="btn btn-danger-custom w-100" target="_blank" rel="noopener">
               <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
               Helpline
@@ -233,16 +237,25 @@
         </div>
 
         <!-- Desktop CTA (unchanged placement) -->
-        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a href="helpline.html" class="btn btn-danger-custom btn-sm fs-sm rounded d-none d-lg-inline-flex"
-          target="_blank" rel="noopener">
-          <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
-          &nbsp;Helpline
-        </a>
+        <div class="d-flex ms-auto">
+          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="d-flex gap-2">
+          <a href="login.html" class="btn btn-outline-primary btn-sm fs-sm rounded d-none d-xl-inline-flex"
+            rel="noopener">
+            <i class="bx bx-user fs-5 lh-1 me-1"></i>
+            &nbsp;Log in
+          </a>
+          <a href="helpline.html" class="btn btn-danger-custom btn-sm fs-sm rounded d-none d-xl-inline-flex"
+            target="_blank" rel="noopener">
+            <i class="bx bx-phone-call fs-4 lh-1 me-1"></i>
+            &nbsp;Helpline
+          </a>
 
+        </div>
       </div>
     </header>
 
@@ -288,8 +301,8 @@
           <!-- Slide 2: Security & Rules -->
           <div class="swiper-slide" role="group" aria-label="2 / 3" data-swiper-slide-index="1">
             <div class="bd-hero-wrapper">
-              <div class="bd-hero-thumb" data-background="assets/img/mosque.jpeg"
-                style="background-image:url('assets/img/mosque.jpeg')"></div>
+              <div class="bd-hero-thumb" data-background="assets/img/slider/02.jpg"
+                style="background-image:url('assets/img/slider/02.jpg')"></div>
               <div class="bd-hero-content-wrapper">
                 <div class="container">
                   <div class="row">
@@ -405,11 +418,11 @@
           <div class="col-lg-6 pt-5 pt-lg-0 d-lg-none d-block">
             <div class="row gy-4 gx-3">
               <div class="col-6">
-                <img src="assets/img/Mirpur_DOHS.jpg" class="img-fluid h-100 rounded-3"
-                  alt="Main gate of Mirpur DOHS">
+                <img src="assets/img/Mirpur_DOHS.jpg" class="img-fluid h-100 rounded-3" alt="Main gate of Mirpur DOHS">
               </div>
               <div class="col-6">
-                <img src="assets/img/mosque.jpeg" class="img-fluid h-100 rounded-3" alt="Clean footpaths in Mirpur DOHS">
+                <img src="assets/img/mosque.jpeg" class="img-fluid h-100 rounded-3"
+                  alt="Clean footpaths in Mirpur DOHS">
               </div>
               <div class="col-6">
                 <img src="assets/img/sunlight.jpg" class="img-fluid h-100 rounded-3" alt="Greenery in Mirpur DOHS">
@@ -716,120 +729,6 @@
       </div>
     </section>
 
-    <section class="pb-80">
-      <div class="container">
-        <div
-          class="d-flex flex-wrap gap-4 justify-content-between align-items-center mb-md-5 mb-4 pb-xl-3 pb-lg-2 pb-md-0 pb-sm-2">
-          <h2 class="h1 mb-0">Executive Committee</h2>
-          <div>
-            <a href="executive-committee.html"
-              class="btn btn-outline-primary btn-lg d-inline-flex align-items-center justify-content-center gap-2 px-4">
-              <i class="bx bx-group fs-4"></i>
-              <span>See all members</span>
-              <i class="bx bx-right-arrow-alt fs-4"></i>
-            </a>
-          </div>
-        </div>
-        <!-- Tabs -->
-        <div class="row gy-4 gx-md-4 gx-3">
-
-          <!-- Nav tabs -->
-          <div class="col-lg-5">
-            <ul class="nav nav-tabs flex-column" role="tablist">
-              <li class="nav-item mb-3">
-                <a href="#gb-1"
-                  class="nav-link flex-md-row flex-sm-column align-items-md-center align-items-sm-start align-items-center p-md-4 p-3 rounded-3 fw-normal active"
-                  data-bs-toggle="tab" role="tab">
-                  <img src="assets/img/ec-member/01.jpg" width="56" height="56" alt="Maj Gen Humayun Khaled, psc (Retd)"
-                    class="rounded-circle me-md-3 me-sm-0 me-3 mb-md-0 mb-sm-2">
-                  <div>
-                    <span class="d-block mb-0 fs-lg fw-semibold">Maj Gen Humayun Khaled, psc (Retd)</span>
-                    President
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item mb-3">
-                <a href="#gb-2"
-                  class="nav-link flex-md-row flex-sm-column align-items-md-center align-items-sm-start align-items-center p-md-4 p-3 rounded-3 fw-normal"
-                  data-bs-toggle="tab" role="tab">
-                  <img src="assets/img/ec-member/02.jpg" width="56" height="56" alt="Lt Col Syed Hasan Iqbal (Retd)"
-                    class="rounded-circle me-md-3 me-sm-0 me-3 mb-md-0 mb-sm-2">
-                  <div>
-                    <span class="d-block mb-0 fs-lg fw-semibold">Lt Col Syed Hasan Iqbal (Retd)</span>
-                    Sr Vice President
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item mb-0">
-                <a href="#gb-3"
-                  class="nav-link flex-md-row flex-sm-column align-items-md-center align-items-sm-start align-items-center p-md-4 p-3 rounded-3 fw-normal"
-                  data-bs-toggle="tab" role="tab">
-                  <img src="assets/img/ec-member/03.jpg" width="56" height="56"
-                    alt="Brig Gen Farooque Ahamed Chowdhury, psc, PEng (Retd)"
-                    class="rounded-circle me-md-3 me-sm-0 me-3 mb-md-0 mb-sm-2">
-                  <div>
-                    <span class="d-block mb-0 fs-lg fw-semibold">Brig Gen Farooque Ahamed Chowdhury, psc, PEng
-                      (Retd)</span>
-                    Vice President
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Tabs content -->
-          <div class="col-lg-6 offset-lg-1">
-            <div class="tab-content ps-lg-0 ps-md-4">
-
-              <!-- President -->
-              <div class="tab-pane fade show active" id="gb-1" role="tabpanel">
-                <h4 class="mb-3">President’s Message</h4>
-                <p class="fs-lg mb-0">
-                  “Mirpur DOHS was envisioned as a calm, well-ordered neighborhood where families feel secure and
-                  respected.
-                  That spirit—discipline, courtesy, and service—still guides us today. We work to keep our roads clear,
-                  our footpaths clean, and our surroundings green, while ensuring a quiet, dignified environment for
-                  all.
-                  I invite every resident to stay engaged with notices, follow community guidelines, and take part in
-                  initiatives that strengthen our shared home.”
-                </p>
-              </div>
-
-              <!-- Sr Vice President -->
-              <div class="tab-pane fade" id="gb-2" role="tabpanel">
-                <h4 class="mb-3">Senior Vice President’s Message</h4>
-                <p class="fs-lg mb-0">
-                  “Good communities run on simple, reliable services—security that is attentive, maintenance that is
-                  regular,
-                  sanitation that is timely, and programs that bring people together. Our subscriptions are
-                  straightforward
-                  and transparent, and our control room is here to help whenever you need support. If something needs
-                  attention,
-                  let us know early; we will respond clearly and keep you updated. Together, we can keep daily life
-                  smooth
-                  and respectful for everyone.”
-                </p>
-              </div>
-
-              <!-- Vice President -->
-              <div class="tab-pane fade" id="gb-3" role="tabpanel">
-                <h4 class="mb-3">Vice President’s Message</h4>
-                <p class="fs-lg mb-0">
-                  “Our focus is the basics done well—sound infrastructure, orderly traffic, dependable utilities,
-                  and clean public spaces. We coordinate closely with relevant services so issues are logged,
-                  resolved, and prevented where possible. Thank you for observing the community rules and for
-                  treating shared areas with care. Your cooperation helps us preserve the quiet, safe character
-                  that makes Mirpur DOHS special.”
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
     <section class="bg-secondary border-bottom border-light py-5">
       <div class="container py-md-3 py-lg-5">
         <div class="d-flex flex-wrap gap-4 justify-content-between align-items-center px-lg-5 mb-4">
@@ -864,21 +763,21 @@
               <!-- Notice 1 -->
               <div class="swiper-slide h-auto py-3">
                 <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                  <div class="card-body pb-0">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Security</span>
-                      <span class="fs-sm text-muted">Aug 10, 2025</span>
+                  <div class="card-body ">
+                    <!-- Date -->
+                    <span class="fs-sm text-muted d-block mb-2">Aug 10, 2025</span>
+
+                    <!-- Title -->
+                    <h3 class="h6 mb-3">Banani, Mohakhali, Baridhara & Mirpur DOHS Council Executive Committee Election
+                      2025 Code of Conduct</h3>
+
+                    <!-- View in browser -->
+                    <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                      <a href="assets/files/1.pdf" target="_blank" rel="noopener" class=""
+                        aria-label="View notice PDF in a new tab">
+                        View Notice
+                      </a>
                     </div>
-                    <h3 class="h4">Gate Entry &amp; Visitor Pass Update</h3>
-                    <p class="mb-0">Residents are requested to carry valid ID. Visitor passes will be issued from the
-                      Control Room during posted hours.</p>
-                  </div>
-                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
-                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Gate%20Entry%20%26%20Visitor%20Pass%20Update%0ADate%3A%20Aug%2010%2C%202025%0ADetails%3A%20Carry%20valid%20ID.%20Visitor%20passes%20from%20Control%20Room%20during%20posted%20hours."
-                      download="Notice-Gate-Entry.txt" class="text-decoration-none text-primary" title="Download notice"
-                      aria-label="Download notice">
-                      <i class="bx bx-download fs-4"></i>
-                    </a>
                   </div>
                 </article>
               </div>
@@ -886,86 +785,20 @@
               <!-- Notice 2 -->
               <div class="swiper-slide h-auto py-3">
                 <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                  <div class="card-body pb-0">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Utilities</span>
-                      <span class="fs-sm text-muted">Aug 08, 2025</span>
-                    </div>
-                    <h3 class="h4">WASA Maintenance — Temporary Water Disruption</h3>
-                    <p class="mb-0">Scheduled maintenance may affect supply on select roads. Please store water in
-                      advance.</p>
-                  </div>
-                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
-                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20WASA%20Maintenance%20%E2%80%94%20Temporary%20Water%20Disruption%0ADate%3A%20Aug%2008%2C%202025%0ADetails%3A%20Maintenance%20may%20affect%20supply%20on%20select%20roads.%20Store%20water%20in%20advance."
-                      download="Notice-WASA-Maintenance.txt" class="text-decoration-none text-primary"
-                      title="Download notice" aria-label="Download notice">
-                      <i class="bx bx-download fs-4"></i>
-                    </a>
-                  </div>
-                </article>
-              </div>
+                  <div class="card-body ">
+                    <!-- Date -->
+                    <span class="fs-sm text-muted d-block mb-2">Aug 10, 2025</span>
 
-              <!-- Notice 3 -->
-              <div class="swiper-slide h-auto py-3">
-                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                  <div class="card-body pb-0">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Community</span>
-                      <span class="fs-sm text-muted">Aug 05, 2025</span>
-                    </div>
-                    <h3 class="h4">Clean-Up Drive — Volunteer Sign-up</h3>
-                    <p class="mb-0">Join residents in a neighborhood clean-up. Gloves and bags will be provided.</p>
-                  </div>
-                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
-                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Clean-Up%20Drive%20%E2%80%94%20Volunteer%20Sign-up%0ADate%3A%20Aug%2005%2C%202025%0ADetails%3A%20Join%20residents%20in%20a%20neighborhood%20clean-up.%20Gloves%20and%20bags%20will%20be%20provided."
-                      download="Notice-Cleanup-Drive.txt" class="text-decoration-none text-primary"
-                      title="Download notice" aria-label="Download notice">
-                      <i class="bx bx-download fs-4"></i>
-                    </a>
-                  </div>
-                </article>
-              </div>
+                    <!-- Title -->
+                    <h3 class="h6 mb-3">Mirpur DOHS House/Flat Owners Association (HOA/FOA) Management Policy</h3>
 
-              <!-- Notice 4 -->
-              <div class="swiper-slide h-auto py-3">
-                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                  <div class="card-body pb-0">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Religious</span>
-                      <span class="fs-sm text-muted">Aug 03, 2025</span>
+                    <!-- View in browser -->
+                    <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
+                      <a href="assets/files/2.pdf" target="_blank" rel="noopener" class=""
+                        aria-label="View notice PDF in a new tab">
+                        View Notice
+                      </a>
                     </div>
-                    <h3 class="h4">Mosque Arrangements — Friday Congregation</h3>
-                    <p class="mb-0">Please arrive early and follow volunteers’ guidance for orderly entry and parking.
-                    </p>
-                  </div>
-                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
-                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Mosque%20Arrangements%20%E2%80%94%20Friday%20Congregation%0ADate%3A%20Aug%2003%2C%202025%0ADetails%3A%20Please%20arrive%20early%20and%20follow%20volunteers%E2%80%99%20guidance%20for%20orderly%20entry%20and%20parking."
-                      download="Notice-Mosque-Arrangements.txt" class="text-decoration-none text-primary"
-                      title="Download notice" aria-label="Download notice">
-                      <i class="bx bx-download fs-4"></i>
-                    </a>
-                  </div>
-                </article>
-              </div>
-
-              <!-- Notice 5 -->
-              <div class="swiper-slide h-auto py-3">
-                <article class="card p-md-3 p-2 border-0 shadow-sm card-hover-primary h-100 mx-2">
-                  <div class="card-body pb-0">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                      <span class="badge fs-sm text-nav bg-secondary position-relative zindex-2">Administration</span>
-                      <span class="fs-sm text-muted">Aug 01, 2025</span>
-                    </div>
-                    <h3 class="h4">Annual General Meeting (AGM) — Schedule &amp; Agenda</h3>
-                    <p class="mb-0">Members are requested to review the agenda and attend as per the announced schedule.
-                    </p>
-                  </div>
-                  <div class="card-footer d-flex align-items-center justify-content-end py-4 text-muted border-top-0">
-                    <a href="data:text/plain;charset=utf-8,Mirpur%20DOHS%20Notice%0ATitle%3A%20Annual%20General%20Meeting%20(AGM)%20%E2%80%94%20Schedule%20%26%20Agenda%0ADate%3A%20Aug%2001%2C%202025%0ADetails%3A%20Members%20are%20requested%20to%20review%20the%20agenda%20and%20attend%20as%20per%20the%20announced%20schedule."
-                      download="Notice-AGM-Agenda.txt" class="text-decoration-none text-primary" title="Download notice"
-                      aria-label="Download notice">
-                      <i class="bx bx-download fs-4"></i>
-                    </a>
                   </div>
                 </article>
               </div>
@@ -978,8 +811,6 @@
         </div>
       </div>
     </section>
-
-
 
     <section class="gallery bg-light py-lg-80 py-5">
       <div class="container">
@@ -1040,12 +871,6 @@
         </div>
       </div>
     </section>
-
-
-
-
-
-
 
   </main>
 

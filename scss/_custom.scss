@@ -114,3 +114,10 @@
     }
   }
 }
+
+
+.card-hover-primary:hover .card-body {
+  a {
+    color: hsla(0, 0%, 100%, 0.7) !important;
+  }
+}
