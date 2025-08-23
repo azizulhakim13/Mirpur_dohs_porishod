@@ -360,6 +360,26 @@
                 right: 6px !important;
             }
         }
+
+        
+
+
+.grid.grid--max4 {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media(max-width:1279px){
+  .grid.grid--max4 { grid-template-columns: repeat(3, 1fr); }
+}
+@media(max-width:1023px){
+  .grid.grid--max4 { grid-template-columns: repeat(2, 1fr); }
+}
+@media(max-width:767px){
+  .grid.grid--max4 { grid-template-columns: 1fr; }
+}
+
     </style>
 </head>
 
@@ -489,15 +509,13 @@
             </div>
         </section>
 
-
-
         <section class="wrap py-80" id="pageWrap">
             <div class="container">
                 <div class="text-center pb-5">
                     <h1 class="display-4 fw-bold text-center">Moments from Our Community</h1>
                 </div>
 
-                <div class="grid">
+                <div class="grid  grid--max4">
                     <!-- AGM -->
                     <article class="card" data-title="AGM" data-images='[
     "assets/img/gallery/AGM/1.JPG",
@@ -522,10 +540,12 @@
     "assets/img/gallery/AGM/20.JPG",
     "assets/img/gallery/AGM/21.JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/AGM/1.JPG" alt="AGM" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">AGM</h3>
                             <div class="count">21 photos</div>
+                        </div>
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/AGM/1.JPG" alt="AGM" />
                         </div>
                     </article>
 
@@ -592,10 +612,12 @@
     "assets/img/gallery/AUGUST-2025/1 (52).JPG",
     "assets/img/gallery/AUGUST-2025/1 (53).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/AUGUST-2025/1 (1).jpeg" alt="AUGUST-2025" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">AUGUST 2025</h3>
                             <div class="count">53 photos</div>
+                        </div>
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/AUGUST-2025/1 (1).jpeg" alt="AUGUST-2025" />
                         </div>
                     </article>
 
@@ -625,11 +647,14 @@
     "assets/img/gallery/DEVELOPMENT WORKS/1 (13).JPG",
     "assets/img/gallery/DEVELOPMENT WORKS/1 (14).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/DEVELOPMENT WORKS/1 (1).jpeg"
-                            alt="DEVELOPMENT WORKS" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">DEVELOPMENT WORKS</h3>
                             <div class="count">22 photos</div>
+                        </div>
+
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/DEVELOPMENT WORKS/1 (1).jpeg"
+                                alt="DEVELOPMENT WORKS" />
                         </div>
                     </article>
 
@@ -657,11 +682,14 @@
     "assets/img/gallery/FOOTBALL TOURNAMENT/1 (19).JPG",
     "assets/img/gallery/FOOTBALL TOURNAMENT/1 (20).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/FOOTBALL TOURNAMENT/1 (1).JPG"
-                            alt="FOOTBALL TOURNAMENT" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">FOOTBALL TOURNAMENT</h3>
                             <div class="count">20 photos</div>
+                        </div>
+
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/FOOTBALL TOURNAMENT/1 (1).JPG"
+                                alt="FOOTBALL TOURNAMENT" />
                         </div>
                     </article>
 
@@ -687,11 +715,13 @@
     "assets/img/gallery/HEROEIC FREEDOMFIGHTERS RECEPTION/1 (18).JPG",
     "assets/img/gallery/HEROEIC FREEDOMFIGHTERS RECEPTION/1 (19).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/HEROEIC FREEDOMFIGHTERS RECEPTION/1 (1).JPG"
-                            alt="HEROEIC FREEDOMFIGHTERS RECEPTION" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">HEROEIC FREEDOMFIGHTERS RECEPTION</h3>
                             <div class="count">19 photos</div>
+                        </div>
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/HEROEIC FREEDOMFIGHTERS RECEPTION/1 (1).JPG"
+                                alt="HEROEIC FREEDOMFIGHTERS RECEPTION" />
                         </div>
                     </article>
 
@@ -713,11 +743,15 @@
     "assets/img/gallery/ISLAMIC PROGRAM/1 (9).JPG",
     "assets/img/gallery/ISLAMIC PROGRAM/1 (10).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/ISLAMIC PROGRAM/1 (1).jpeg"
-                            alt="ISLAMIC PROGRAM" />
-                        <div class="card-body">
+
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">ISLAMIC PROGRAM</h3>
                             <div class="count">14 photos</div>
+                        </div>
+
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/ISLAMIC PROGRAM/1 (1).jpeg"
+                                alt="ISLAMIC PROGRAM" />
                         </div>
                     </article>
 
@@ -772,10 +806,13 @@
     "assets/img/gallery/JULY-2024/1 (24).jpeg",
     "assets/img/gallery/JULY-2024/1 (25).jpeg"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/JULY-2024/1 (1).jpeg" alt="JULY-2024" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">JULY 2024</h3>
                             <div class="count">47 photos</div>
+                        </div>
+
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/JULY-2024/1 (1).jpeg" alt="JULY-2024" />
                         </div>
                     </article>
 
@@ -827,11 +864,14 @@
     "assets/img/gallery/LADIES & CHILDREN CLUB/1 (32).JPG",
     "assets/img/gallery/LADIES & CHILDREN CLUB/1 (33).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/LADIES & CHILDREN CLUB/1 (1).jpeg"
-                            alt="LADIES & CHILDREN CLUB" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">LADIES & CHILDREN CLUB</h3>
                             <div class="count">33 photos</div>
+                        </div>
+
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/LADIES & CHILDREN CLUB/1 (1).jpeg"
+                                alt="LADIES & CHILDREN CLUB" />
                         </div>
                     </article>
 
@@ -858,13 +898,17 @@
     "assets/img/gallery/MARATHON 2025/1 (18).JPG",
     "assets/img/gallery/MARATHON 2025/1 (19).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/MARATHON 2025/1 (1).JPG" alt="MARATHON 2025" />
-                        <div class="card-body">
+
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">MARATHON 2025</h3>
                             <div class="count">19 photos</div>
                         </div>
-                    </article>
 
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/MARATHON 2025/1 (1).JPG"
+                                alt="MARATHON 2025" />
+                        </div>
+                    </article>
 
 
                     <!-- TREE PLANTATION -->
@@ -881,11 +925,14 @@
     "assets/img/gallery/TREE PLANTATION/1 (7).JPG",
     "assets/img/gallery/TREE PLANTATION/1 (8).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/TREE PLANTATION/1 (1).jpeg"
-                            alt="TREE PLANTATION" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">TREE PLANTATION</h3>
                             <div class="count">11 photos</div>
+                        </div>
+
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/TREE PLANTATION/1 (1).jpeg"
+                                alt="TREE PLANTATION" />
                         </div>
                     </article>
 
@@ -909,11 +956,14 @@
     "assets/img/gallery/VICTORYDAY RALLY/1 (16).JPG",
     "assets/img/gallery/VICTORYDAY RALLY/1 (17).JPG"
 ]'>
-                        <img class="card-img" src="assets/img/gallery/VICTORYDAY RALLY/1 (1).JPG"
-                            alt="VICTORYDAY RALLY" />
-                        <div class="card-body">
+                        <div class="px-3 pt-3 pb-2">
                             <h3 class="title">VICTORYDAY RALLY</h3>
                             <div class="count">17 photos</div>
+                        </div>
+
+                        <div class="card-body">
+                            <img class="card-img" src="assets/img/gallery/VICTORYDAY RALLY/1 (1).JPG"
+                                alt="VICTORYDAY RALLY" />
                         </div>
                     </article>
 
